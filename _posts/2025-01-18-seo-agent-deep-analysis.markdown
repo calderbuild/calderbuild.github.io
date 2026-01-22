@@ -752,7 +752,7 @@ The future of SEO isn't "AI vs Humans." It's "Humans who effectively use AI vs H
 *Want to discuss SEO strategies with AI? I'm still experimenting and learning:*
 
 ** Email**: jason@jasonrobert.me
-** GitHub**: [@JasonRobertDestiny](https://github.com/JasonRobertDestiny)
+** GitHub**: [@calderbuild](https://github.com/calderbuild)
 ** Other platforms**: [Juejin](https://juejin.cn/user/2637056597039172) | [CSDN](https://blog.csdn.net/Soulrobert520)
 
 ---
@@ -994,7 +994,7 @@ SEO"AI""AIAI"
 *AISEO?:*
 
 ** **: jason@jasonrobert.me
-** GitHub**: [@JasonRobertDestiny](https://github.com/JasonRobertDestiny)
+** GitHub**: [@calderbuild](https://github.com/calderbuild)
 ** **: [](https://juejin.cn/user/2637056597039172)
 ** CSDN**: [](https://blog.csdn.net/Soulrobert520)
 

@@ -1489,7 +1489,7 @@ Good luck. You'll need less of it if you focus on creating real value instead of
 *Want to discuss SEO strategies or share your own AI experiments? I respond to every message:*
 
 ** Email**: jason@jasonrobert.me
-** GitHub**: [@JasonRobertDestiny](https://github.com/JasonRobertDestiny)
+** GitHub**: [@calderbuild](https://github.com/calderbuild)
 ** Other platforms**: [Juejin](https://juejin.cn/user/2637056597039172) | [CSDN](https://blog.csdn.net/Soulrobert520)
 
 ---
@@ -1645,7 +1645,7 @@ AI,E-E-A-T——SEO
 *SEOAI?:*
 
 ** **: jason@jasonrobert.me
-** GitHub**: [@JasonRobertDestiny](https://github.com/JasonRobertDestiny)
+** GitHub**: [@calderbuild](https://github.com/calderbuild)
 ** **: [](https://juejin.cn/user/2637056597039172)
 ** CSDN**: [](https://blog.csdn.net/Soulrobert520)
 

@@ -263,7 +263,7 @@ The journey is just beginning. The hype cycle is exhausting. But the underlying 
 
 ---
 
-**Want to learn more?** Follow my journey building AI-powered platforms at [GitHub](https://github.com/JasonRobertDestiny) or connect with me on [LinkedIn](https://www.linkedin.com/in/jasonrobert).
+**Want to learn more?** Follow my journey building AI-powered platforms at [GitHub](https://github.com/calderbuild) or connect with me on [LinkedIn](https://www.linkedin.com/in/jasonrobert).
 
 **Found this useful?** Share it with someone who's considering AI Agent implementation. Honest technical content beats marketing fluff every time.
 
@@ -510,7 +510,7 @@ AI Agent****
 
 ---
 
-**?** [GitHub](https://github.com/JasonRobertDestiny)AI,[LinkedIn](https://www.linkedin.com/in/jasonrobert)
+**?** [GitHub](https://github.com/calderbuild)AI,[LinkedIn](https://www.linkedin.com/in/jasonrobert)
 
 **?** AI Agent
 

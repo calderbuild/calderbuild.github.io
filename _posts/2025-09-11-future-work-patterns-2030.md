@@ -818,7 +818,7 @@ What future are you creating?
 *Want to discuss the future of work? I'm figuring this out in real-time and sharing what I learn:*
 
 ** Email**: jason@jasonrobert.me
-** GitHub**: [@JasonRobertDestiny](https://github.com/JasonRobertDestiny)
+** GitHub**: [@calderbuild](https://github.com/calderbuild)
 ** Other platforms**: [Juejin](https://juejin.cn/user/2637056597039172) | [CSDN](https://blog.csdn.net/Soulrobert520)
 
 ---
@@ -1016,7 +1016,7 @@ What future are you creating?
 *?:*
 
 ** **: jason@jasonrobert.me
-** GitHub**: [@JasonRobertDestiny](https://github.com/JasonRobertDestiny)
+** GitHub**: [@calderbuild](https://github.com/calderbuild)
 ** **: [](https://juejin.cn/user/2637056597039172)
 ** CSDN**: [](https://blog.csdn.net/Soulrobert520)
 

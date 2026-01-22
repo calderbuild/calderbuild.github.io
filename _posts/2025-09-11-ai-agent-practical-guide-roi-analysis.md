@@ -323,7 +323,7 @@ Deploying AI Agents in your org? I'd love to hear about your experience:
 
 -  Comment below with your ROI challenges
 -  Email me at jason@jasonrobert.me with specific questions
--  Check out our [MeetSpot code on GitHub](https://github.com/JasonRobertDestiny) (some components are open-sourced)
+-  Check out our [MeetSpot code on GitHub](https://github.com/calderbuild) (some components are open-sourced)
 
 If this post helped you make a better business case for AI Agents, share it with your team. Every successful AI deployment makes the ecosystem stronger for everyone.
 
@@ -633,7 +633,7 @@ AI Agent?:
 
 -  ROI
 -  jason@jasonrobert.me
--  [MeetSpotGitHub](https://github.com/JasonRobertDestiny)()
+-  [MeetSpotGitHub](https://github.com/calderbuild)()
 
 AI Agent,AI
 

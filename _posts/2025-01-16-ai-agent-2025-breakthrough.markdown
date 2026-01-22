@@ -1249,14 +1249,14 @@ The AI Agent revolution is real. It's just slower, messier, and more expensive t
 
 ---
 
-*Building AI-powered products?* Follow my journey at [GitHub](https://github.com/JasonRobertDestiny) | [Juejin](https://juejin.cn/user/2637056597039172) | [CSDN](https://blog.csdn.net/Soulrobert520) where I share **real production metrics, honest failures, and expensive lessons**—not marketing fluff.
+*Building AI-powered products?* Follow my journey at [GitHub](https://github.com/calderbuild) | [Juejin](https://juejin.cn/user/2637056597039172) | [CSDN](https://blog.csdn.net/Soulrobert520) where I share **real production metrics, honest failures, and expensive lessons**—not marketing fluff.
 
 *Found this analysis useful?* Share it with someone navigating AI Agent implementation. **Honest technical content beats hype every time.**
 
 ---
 
 ** Email**: jason@jasonrobert.me
-** GitHub**: [@JasonRobertDestiny](https://github.com/JasonRobertDestiny)
+** GitHub**: [@calderbuild](https://github.com/calderbuild)
 ** Other platforms**: [Juejin](https://juejin.cn/user/2637056597039172) | [CSDN](https://blog.csdn.net/Soulrobert520)
 
 ---
@@ -1390,14 +1390,14 @@ AI2025,
 
 ---
 
-*AI?* [GitHub](https://github.com/JasonRobertDestiny) | [](https://juejin.cn/user/2637056597039172) | [CSDN](https://blog.csdn.net/Soulrobert520),****——
+*AI?* [GitHub](https://github.com/calderbuild) | [](https://juejin.cn/user/2637056597039172) | [CSDN](https://blog.csdn.net/Soulrobert520),****——
 
 *?* AI Agent****
 
 ---
 
 ** **: jason@jasonrobert.me
-** GitHub**: [@JasonRobertDestiny](https://github.com/JasonRobertDestiny)
+** GitHub**: [@calderbuild](https://github.com/calderbuild)
 ** **: [](https://juejin.cn/user/2637056597039172)
 ** CSDN**: [](https://blog.csdn.net/Soulrobert520)
 

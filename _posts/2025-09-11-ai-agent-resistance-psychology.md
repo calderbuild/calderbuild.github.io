@@ -793,7 +793,7 @@ You'll encounter resistance 1,247 more times in your next project. Remember: it'
 *Want to discuss AI resistance psychology or share your own experiences? I respond to every message:*
 
 ** Email**: jason@jasonrobert.me
-** GitHub**: [@JasonRobertDestiny](https://github.com/JasonRobertDestiny)
+** GitHub**: [@calderbuild](https://github.com/calderbuild)
 ** Other platforms**: [Juejin](https://juejin.cn/user/2637056597039172) | [CSDN](https://blog.csdn.net/Soulrobert520)
 
 ---
@@ -1045,7 +1045,7 @@ class TrustVoidAnalysis:
 28AI——AI:
 
 -  ****: jason@jasonrobert.me - 
--  **GitHub**: [@JasonRobertDestiny](https://github.com/JasonRobertDestiny)
+-  **GitHub**: [@calderbuild](https://github.com/calderbuild)
 -  ****: [](https://juejin.cn/user/2637056597039172)
 -  **CSDN**: [](https://blog.csdn.net/Soulrobert520)
 

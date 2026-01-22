@@ -246,7 +246,7 @@ If you found this guide useful, explore these related articles from my AI Agent 
 
 ---
 
-**Building AI-powered products?** I document my journey at [GitHub](https://github.com/JasonRobertDestiny). Let's connect and share lessons learned.
+**Building AI-powered products?** I document my journey at [GitHub](https://github.com/calderbuild). Let's connect and share lessons learned.
 
 **Found this useful?** Share it with someone navigating AI agent implementation. Honest technical insights beat marketing fluff every time.
 
@@ -476,7 +476,7 @@ AI——,
 
 ---
 
-**AI?** [GitHub](https://github.com/JasonRobertDestiny)
+**AI?** [GitHub](https://github.com/calderbuild)
 
 **?** AI
 

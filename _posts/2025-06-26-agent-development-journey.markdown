@@ -902,7 +902,7 @@ Tech community is collaborative, not zero-sum.
 ##  Resources & Links
 
 ### My Projects
-- **MeetSpot**: [GitHub Repository](https://github.com/JasonRobertDestiny/MeetSpot) - Full source code, documentation
+- **MeetSpot**: [GitHub Repository](https://github.com/calderbuild/MeetSpot) - Full source code, documentation
 - **NeighborHelp**: Private (commercial potential) - But happy to discuss architecture
 
 ### Learning Resources That Actually Helped
@@ -938,7 +938,7 @@ Do it. Start this weekend. Don't wait for the perfect idea or complete knowledge
 Your first version will be embarrassing. Mine were. That's good. It means you shipped.
 
 I'll be building in public and sharing lessons on:
--  [GitHub](https://github.com/JasonRobertDestiny)
+-  [GitHub](https://github.com/calderbuild)
 -  [Juejin ()](https://juejin.cn/user/2637056597039172)
 -  [CSDN Blog](https://blog.csdn.net/Soulrobert520)
 
@@ -1097,7 +1097,7 @@ async function findMeetingSpot(userLocations) {
 
 
 :
--  [GitHub](https://github.com/JasonRobertDestiny)
+-  [GitHub](https://github.com/calderbuild)
 -  [](https://juejin.cn/user/2637056597039172)
 -  [CSDN](https://blog.csdn.net/Soulrobert520)
 

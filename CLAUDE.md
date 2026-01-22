@@ -19,6 +19,11 @@ bundle exec jekyll serve
 bundle exec jekyll build
 ```
 
+### Custom Slash Commands
+
+- `/deploy` - Upload important files to GitHub (excludes unnecessary docs)
+- `/arrange` - Clean up files, delete test files and unnecessary docs (preserves .claude/ and result_seo/)
+
 ## Architecture
 
 ### Directory Structure
@@ -41,10 +46,17 @@ bundle exec jekyll build
 - **Typography**: Space Mono (display), IBM Plex Sans (body), JetBrains Mono (code)
 - **Style**: Cyberpunk Brutalism - sharp corners, neon glows, grid backgrounds
 
+## Content Guidelines
+
+- **No emojis** in any content, code comments, or documentation
+- Author name: "Calder" (site) or "Jason Robert" (posts)
+- Posts are English-only (bilingual system removed)
+
 ### Blog Posts
+
 Posts must follow naming: `_posts/YYYY-MM-DD-title.md`
 
-Front matter template:
+Front matter:
 ```yaml
 ---
 layout: post
@@ -52,20 +64,23 @@ title: "Post Title"
 subtitle: "Optional subtitle"
 description: "SEO meta description"
 date: YYYY-MM-DD HH:MM:SS
-author: "Calder"
+updated: YYYY-MM-DD HH:MM:SS  # optional
+author: "Jason Robert"
+header-img: "img/post-bg-*.jpg"  # optional
 tags:
   - Tag1
   - Tag2
 ---
 ```
 
-### Deployment
+## Deployment
+
 - Push to `master` triggers GitHub Actions deployment
 - Workflow: `.github/workflows/jekyll.yml`
 - Ruby 3.1, auto-deploys to GitHub Pages
-- Future-dated posts ARE published (`future: true`)
+- Future-dated posts ARE published (`future: true` in config)
 
-## Key Configuration
-
-- `_config.yml` - Site metadata, social links, pagination
-- `css/style.css` - Complete design system (edit directly)
+### Plugins
+- `jekyll-paginate` - Blog pagination
+- `jekyll-seo-tag` - SEO meta tags
+- `jekyll-sitemap` - Auto-generated sitemap.xml

@@ -31,7 +31,7 @@ kramdown:
       line_numbers: true
 
 # Social
-github_username: JasonRobertDestiny
+github_username: calderbuild
 twitter_username:
 linkedin_username:
 
@@ -39,19 +39,19 @@ linkedin_username:
 ga_track_id: G-DNFKJG8R74
 
 # Sidebar
-avatar: https://github.com/JasonRobertDestiny.png
+avatar: https://github.com/calderbuild.png
 bio: "AI Agent Architect | Multi-Agent Systems | Web3"
 
 # Links
 links:
   - title: "GitHub"
-    url: "https://github.com/JasonRobertDestiny"
+    url: "https://github.com/calderbuild"
   - title: "CSDN"
     url: "https://blog.csdn.net/Soulrobert520"
   - title: "Juejin"
     url: "https://juejin.cn/user/2637056597039172"
   - title: "MeetSpot"
-    url: "https://github.com/JasonRobertDestiny/MeetSpot"
+    url: "https://github.com/calderbuild/MeetSpot"
 
 # Exclude
 exclude:
