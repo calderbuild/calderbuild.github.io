@@ -1,0 +1,35 @@
+- name: MeetSpot
+  tagline: "Multi-User Optimal Meeting Point Agent"
+  description: "FastAPI-based LBS recommendation engine using geometric center algorithms and concurrent POI retrieval."
+  stars: "490+"
+  award: "2nd Prize, Soul App Agent Hackathon Final"
+  tech: [FastAPI, LBS, Geometric Algorithms]
+  url: https://github.com/calderbuild/MeetSpot
+  category: ai
+
+- name: VibeDoc
+  tagline: "AI Product Manager & Architect"
+  description: "Transforms vague ideas into complete PRDs, system architectures, and AI coding prompts within 60-180 seconds."
+  stars: "360+"
+  award: "Best Topic Award, OpenManus Hackathon"
+  tech: [Gradio, Qwen 2.5, Prompt Engineering]
+  url: https://github.com/calderbuild/VibeDoc
+  category: ai
+
+- name: "L'Oreal Data Insight"
+  tagline: "B2B Natural Language Database Query"
+  description: "Text-to-SQL agent allowing non-technical staff to query complex business databases using natural language."
+  stars: null
+  award: "Rising Star Prize, L'Oreal Hackathon"
+  tech: [Text-to-SQL, NLP]
+  url: null
+  category: data
+
+- name: WeFinance
+  tagline: "Intelligent Financial Analysis Agent"
+  description: "Vision LLMs achieving >90% structural extraction accuracy from complex billing images."
+  stars: "120+"
+  award: "Excellence Award, 12th Nvidia Sky Hackathon"
+  tech: [Vision LLMs, Image Extraction]
+  url: https://github.com/calderbuild/WeFinance
+  category: ai

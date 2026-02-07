@@ -5,11 +5,8 @@ subtitle: "Real-world lessons from deploying LangChain, CrewAI, and no-code agen
 description: "Practical analysis of AI Agent adoption based on hands-on implementation experience with MeetSpot, NeighborHelp, and enterprise deployments. Covers multi-agent orchestration, no-code vs developer frameworks, and honest ROI data from production systems."
 date: 2025-09-11 10:00:00
 updated: 2025-12-23 15:30:00
-author: "Jason Robert"
+author: "Calder"
 header-img: "img/post-bg-web.jpg"
-catalog: true
-multilingual: true
-reading_time: 16
 tags:
     - AI Agents
     - LangChain
@@ -18,7 +15,7 @@ tags:
     - Production Systems
 seo:
   keywords: "AI agents production, LangChain tutorial, CrewAI implementation, multi-agent orchestration, enterprise AI deployment, no-code AI platforms"
-  author: "Jason Robert"
+  author: "Calder"
   publisher: "Jason's Tech Blog"
 ---
 

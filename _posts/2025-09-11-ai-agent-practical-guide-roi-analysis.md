@@ -5,11 +5,8 @@ subtitle: "Building measurable business value systems from real-world implementa
 description: "Deep dive into 2025 AI Agent enterprise applications with detailed ROI analysis methods and business value assessment frameworks. Complete practical guide from trial to scale-up deployment, empowering enterprise AI transformation decisions."
 date: 2025-09-11 12:00:00
 updated: 2025-12-23 16:00:00
-author: "Jason Robert"
+author: "Calder"
 header-img: "img/post-bg-business.jpg"
-catalog: true
-multilingual: true
-reading_time: 15
 tags:
     - AI Agent
     - ROI
@@ -21,7 +18,7 @@ tags:
     - Analytics
 seo:
   keywords: "AI Agent ROI, enterprise AI deployment, business value analysis, AI implementation strategy, cost-benefit analysis, AI transformation"
-  author: "Jason Robert"
+  author: "Calder"
   publisher: "Jason's Tech Blog"
 ---
 

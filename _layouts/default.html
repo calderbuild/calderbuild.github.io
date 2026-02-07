@@ -29,7 +29,7 @@
   <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="{{ '/img/favicon.png' | relative_url }}">
+  <link rel="icon" type="image/x-icon" href="{{ '/img/favicon.ico' | relative_url }}">
 
   <!-- Canonical -->
   <link rel="canonical" href="{{ page.url | absolute_url }}">
@@ -44,6 +44,26 @@
     gtag('config', '{{ site.ga_track_id }}');
   </script>
   {% endif %}
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "Calder",
+      "alternateName": "Lin Luo",
+      "url": "{{ site.url }}",
+      "sameAs": [
+        "https://github.com/calderbuild",
+        "https://x.com/CalderBuild"
+      ],
+      "jobTitle": "Agent Developer",
+      "knowsAbout": ["Multi-Agent Systems", "AI Agents", "Prompt Engineering", "RAG"]
+    }
+  }
+  </script>
 </head>
 <body>
   <!-- Header -->
@@ -60,6 +80,7 @@
       <ul class="nav-links">
         <li><a href="{{ '/' | relative_url }}">Home</a></li>
         <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+        <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
         <li><a href="{{ '/about/' | relative_url }}">About</a></li>
         <li><a href="{{ '/archive/' | relative_url }}">Archive</a></li>
       </ul>

@@ -4,11 +4,8 @@ title: "Future Work Patterns 2030: What 28 Months of AI-Augmented Work Actually 
 subtitle: "Real observations from building 3 AI systems while working remotely—the messy truth about hybrid intelligence, skill decay, and work-life boundaries"
 description: "Honest account of future work patterns emerging from 28 months of AI-augmented development across MeetSpot, NeighborHelp, and Enterprise AI. Real metrics on productivity, specific failures with remote collaboration, and what actually changed (versus hype) when AI became my coworker."
 date: 2025-09-11 12:00:00
-author: "Jason Robert"
+author: "Calder"
 header-img: "img/post-bg-future.jpg"
-catalog: true
-multilingual: true
-reading_time: 20
 tags:
     - Future of Work
     - AI Augmentation
@@ -20,7 +17,7 @@ tags:
     - Real Experiences
 seo:
   keywords: "future work patterns 2030, AI-augmented work reality, remote work with AI, human-AI collaboration experiences, productivity with AI tools, work-life balance AI era, career development AI age"
-  author: "Jason Robert"
+  author: "Calder"
   publisher: "Jason's Tech Blog"
 ---
 

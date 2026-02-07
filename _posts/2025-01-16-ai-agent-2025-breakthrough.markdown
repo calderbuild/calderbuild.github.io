@@ -4,11 +4,8 @@ title: "AI Agent 2025 Breakthrough: What $847/Month in Production Costs Actually
 subtitle: "18 months of building production AI systems—separating genuine technical progress from marketing noise with real metrics, honest failures, and expensive lessons"
 description: "Comprehensive analysis of AI Agent breakthroughs in 2025 based on real production deployments across MeetSpot and NeighborHelp. Documents actual technical advances, specific cost structures ($847→$312/month optimization), realistic success rates (55% real vs 87% demo), and honest assessment of what works vs marketing hype. Includes 23 critical incidents, 3 catastrophic failures, and practical lessons from 18 months of production experience."
 date: 2025-01-16 10:00:00
-author: "Jason Robert"
+author: "Calder"
 header-img: "img/post-bg-ai-agent.jpg"
-catalog: true
-multilingual: true
-reading_time: 28
 tags:
     - AI Agents
     - Production Reality
@@ -20,7 +17,7 @@ tags:
     - Technical Truth
 seo:
   keywords: "AI agents 2025 real costs, production AI deployment reality, agent reliability 55% vs 87% demo, technical breakthrough honest analysis, AI Agent cost optimization $847 to $312, enterprise agent failures, MeetSpot production metrics, agent washing detection, realistic AI expectations, production system lessons"
-  author: "Jason Robert"
+  author: "Calder"
   publisher: "Jason's Tech Blog"
 tldr:
   - "$847/$312/63%++Prompt"

@@ -7,18 +7,78 @@ title: Home
 <section class="hero">
   <div class="container">
     <div class="hero-content">
-      <span class="hero-tag">AI Agent Architect</span>
+      <span class="hero-tag">Agent Developer</span>
       <h1 class="hero-title">
         Building the<br>
-        <span class="accent">Future</span> of AI
+        <span class="accent-gradient">Next Wave</span> of AI Agents
       </h1>
       <p class="hero-subtitle">
-        Exploring multi-agent systems, production AI architectures, and the frontier of intelligent systems. 28+ months building real-world AI solutions.
+        Shipping multi-agent systems and AI-driven MVPs from idea to production.
+        Hackathon veteran. Open source contributor. 1.6k+ GitHub stars.
       </p>
+      <div class="hero-stats">
+        <span class="tag">1.6k+ Stars</span>
+        <span class="tag">4+ Hackathon Wins</span>
+        <span class="tag">Datawhale Contributor</span>
+      </div>
       <div class="hero-cta">
-        <a href="/archive/" class="btn btn-primary">Read Articles</a>
+        <a href="/projects/" class="btn btn-primary">View Projects</a>
         <a href="/about/" class="btn">About Me</a>
       </div>
+    </div>
+
+    <div class="terminal-block" aria-hidden="true">
+      <div class="terminal-line">
+        <span>agent.status</span>
+        <span class="terminal-val--active">ONLINE</span>
+      </div>
+      <div class="terminal-line">
+        <span>github.stars</span>
+        <span class="terminal-val--cyan">1.6k+</span>
+      </div>
+      <div class="terminal-line">
+        <span>hackathon.wins</span>
+        <span class="terminal-val--active">4</span>
+      </div>
+      <div class="terminal-line">
+        <span>active_projects</span>
+        <span>4</span>
+      </div>
+      <div class="terminal-line terminal-cursor">
+        <span>next_build</span>
+        <span class="terminal-val--cyan">initializing...</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Featured Projects -->
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Featured Projects</h2>
+      <a href="/projects/" class="btn">View All</a>
+    </div>
+
+    <div class="post-grid">
+      {% for project in site.data.projects limit:3 %}
+        {% if project.url %}
+        <article class="post-card">
+          <div class="project-header">
+            <h3 class="post-title"><a href="{{ project.url }}" target="_blank" rel="noopener">{{ project.name }}</a></h3>
+            {% if project.stars %}
+            <span class="post-meta" style="color: var(--accent-yellow)">{{ project.stars }} stars</span>
+            {% endif %}
+          </div>
+          <p class="post-excerpt">{{ project.tagline }}</p>
+          <div class="post-tags">
+            {% for t in project.tech %}
+            <span class="tag">{{ t }}</span>
+            {% endfor %}
+          </div>
+        </article>
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
 </section>
@@ -56,63 +116,23 @@ title: Home
   </div>
 </section>
 
-<!-- Links Section -->
-<section class="section">
-  <div class="container">
-    <div class="section-header">
-      <h2 class="section-title">Connect</h2>
-    </div>
-
-    <div class="links-grid">
-      {% for link in site.links %}
-      <a href="{{ link.url }}" target="_blank" rel="noopener" class="link-card">
-        <span class="link-title">{{ link.title }}</span>
-        <span class="link-arrow">&rarr;</span>
-      </a>
-      {% endfor %}
-    </div>
-  </div>
-</section>
-
 <style>
-  .links-grid {
+  .hero .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: var(--space-md);
-  }
-
-  .link-card {
-    display: flex;
-    justify-content: space-between;
+    grid-template-columns: 3fr 2fr;
     align-items: center;
-    padding: var(--space-lg);
-    background: var(--bg-card);
-    border: 1px solid rgba(255, 255, 255, 0.05);
-    color: var(--text-primary);
-    transition: all 0.2s ease;
+    gap: var(--space-2xl);
   }
 
-  .link-card:hover {
-    border-color: var(--accent-cyan);
-    color: var(--accent-cyan);
+  .hero-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+    margin-bottom: var(--space-xl);
   }
 
-  .link-title {
-    font-family: var(--font-display);
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-  }
-
-  .link-arrow {
-    font-size: 1.25rem;
-    opacity: 0;
-    transform: translateX(-10px);
-    transition: all 0.2s ease;
-  }
-
-  .link-card:hover .link-arrow {
-    opacity: 1;
-    transform: translateX(0);
+  @media (max-width: 768px) {
+    .hero .container { grid-template-columns: 1fr; }
+    .terminal-block { display: none; }
   }
 </style>

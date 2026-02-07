@@ -4,11 +4,8 @@ title: "The Psychology of AI Resistance: What 840 Users Taught Me About Fear, Tr
 subtitle: "Real psychological barriers from 3 AI deployments, 8 shouting matches, and the day I became my own worst enemy"
 description: "Honest account of managing psychological resistance across 3 AI projects serving 840+ users. Real resistance incidents, failed psychological tactics, and what actually works when people fear intelligent systems. Based on MeetSpot, NeighborHelp, and enterprise AI deployments."
 date: 2025-09-11 12:00:00
-author: "Jason Robert"
+author: "Calder"
 header-img: "img/post-bg-psychology.jpg"
-catalog: true
-multilingual: true
-reading_time: 22
 tags:
     - AI Agent
     - Psychology
@@ -20,7 +17,7 @@ tags:
     - Real Experiences
 seo:
   keywords: "AI resistance psychology, user adoption challenges, AI change management, psychological barriers AI, human-AI trust building, technology resistance, AI implementation psychology"
-  author: "Jason Robert"
+  author: "Calder"
   publisher: "Jason's Tech Blog"
 ---
 

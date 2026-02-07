@@ -1,0 +1,75 @@
+---
+layout: default
+title: Projects
+description: "Open source AI tools and hackathon builds by Calder. 1.6k+ GitHub stars."
+permalink: /projects/
+---
+
+<section class="projects">
+  <header class="archive-header container container-narrow">
+    <h1 class="page-title">Projects</h1>
+    <p class="page-description">Open source tools and hackathon builds.</p>
+  </header>
+
+  <div class="container">
+    <div class="post-grid">
+      {% for project in site.data.projects %}
+      <article class="post-card">
+        <div class="project-header">
+          <div>
+            <h3 class="post-title">
+              {% if project.url %}
+              <a href="{{ project.url }}" target="_blank" rel="noopener">{{ project.name }}</a>
+              {% else %}
+              {{ project.name }}
+              {% endif %}
+            </h3>
+            <p class="post-meta">{{ project.tagline }}</p>
+          </div>
+          {% if project.stars %}
+          <span class="post-meta" style="color: var(--accent-yellow)">{{ project.stars }} stars</span>
+          {% endif %}
+        </div>
+
+        <p class="post-excerpt">{{ project.description }}</p>
+
+        {% if project.award %}
+        <p class="post-meta" style="color: var(--accent-green)">{{ project.award }}</p>
+        {% endif %}
+
+        <div class="post-tags">
+          {% for t in project.tech %}
+          <span class="tag">{{ t }}</span>
+          {% endfor %}
+        </div>
+
+        {% if project.url %}
+        <a href="{{ project.url }}" class="btn" style="margin-top: var(--space-md); font-size: 0.75rem; padding: var(--space-sm) var(--space-md);" target="_blank" rel="noopener">View on GitHub</a>
+        {% else %}
+        <span class="post-meta" style="margin-top: var(--space-md); display: inline-block;">Private Project</span>
+        {% endif %}
+      </article>
+      {% endfor %}
+    </div>
+
+    <div class="text-center" style="margin-top: var(--space-2xl);">
+      <p style="color: var(--text-secondary);">Want to collaborate?</p>
+      <a href="mailto:{{ site.email }}" class="btn btn-primary">Get in Touch</a>
+    </div>
+  </div>
+</section>
+
+<style>
+  .archive-header {
+    padding: calc(80px + var(--space-3xl)) 0 var(--space-2xl);
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 255, 255, 0.1);
+    margin-bottom: var(--space-xl);
+  }
+
+  @media (max-width: 480px) {
+    .post-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

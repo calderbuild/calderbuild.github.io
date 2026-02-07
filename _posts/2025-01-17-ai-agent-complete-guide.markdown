@@ -4,11 +4,8 @@ title: "AI Agent Complete Guide: What Building 3 Production Systems from Scratch
 subtitle: "From $847 API disaster to 91.8% success rate—the complete journey of building real AI Agents that work in production"
 description: "Comprehensive guide to AI Agent development based on 28 months of real production experience across MeetSpot, NeighborHelp, and Enterprise AI. Covers architecture decisions, framework comparisons, performance optimization, and the expensive lessons about what actually works versus marketing promises. Real metrics, honest failures, and practical solutions."
 date: 2025-01-17 10:00:00
-author: "Jason Robert"
+author: "Calder"
 header-img: "img/post-bg-ai-agent-guide.jpg"
-catalog: true
-multilingual: true
-reading_time: 35
 tags:
     - AI Agent
     - Production Guide
@@ -20,7 +17,7 @@ tags:
     - Performance Optimization
 seo:
   keywords: "AI Agent complete guide production, real AI Agent implementation, LangChain vs custom comparison, AI Agent architecture from scratch, production AI system design, autonomous agent development guide, AI Agent performance optimization, real deployment experiences"
-  author: "Jason Robert"
+  author: "Calder"
   publisher: "Jason's Tech Blog"
 tldr:
   - "LangChain1-2QPS>5010-50"

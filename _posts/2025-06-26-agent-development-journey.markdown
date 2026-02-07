@@ -4,11 +4,8 @@ title: "From Zero to Award-Winning AI Apps: My Agent Development Journey"
 subtitle: "How I built MeetSpot and NeighborHelp—two AI applications that won innovation awards and served 500+ real users"
 description: "Complete technical breakdown of building two award-winning AI agent applications from scratch. Real architecture decisions, honest failures, specific metrics, and lessons learned from deploying AI to production with 500+ active users."
 date: 2025-06-26 15:30:00
-author: "Jason Robert"
+author: "Calder"
 header-img: "img/post-bg-ai.jpg"
-catalog: true
-multilingual: true
-reading_time: 20
 tags:
     - AI Application Development
     - Agent Architecture
@@ -19,7 +16,7 @@ tags:
     - Development Methodology
 seo:
   keywords: "AI agent development, award-winning AI apps, MeetSpot technical breakdown, NeighborHelp architecture, production AI deployment, agent architecture patterns"
-  author: "Jason Robert"
+  author: "Calder"
   publisher: "Jason's Tech Blog"
 tldr:
   - "1-2+3-4Demo+5-8+9-246"

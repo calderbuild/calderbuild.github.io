@@ -9,54 +9,54 @@ Minimal Jekyll blog with Cyberpunk Brutalism design. Live at https://jasonrobert
 ## Development Commands
 
 ```bash
-# Install dependencies
-bundle install
-
-# Local development
-bundle exec jekyll serve
-
-# Production build
-bundle exec jekyll build
+bundle install              # Install dependencies
+bundle exec jekyll serve    # Local dev server (localhost:4000)
+bundle exec jekyll build    # Production build to _site/
 ```
 
 ### Custom Slash Commands
 
-- `/deploy` - Upload important files to GitHub (excludes unnecessary docs)
-- `/arrange` - Clean up files, delete test files and unnecessary docs (preserves .claude/ and result_seo/)
+- `/deploy` - Commit and push important files to GitHub (excludes docs/tests)
+- `/arrange` - Delete unnecessary files (preserves .claude/ and result_seo/)
 
 ## Architecture
 
-### Directory Structure
-```
-/
-├── _config.yml      # Site configuration
-├── _layouts/        # Page templates (default, post, page)
-├── _posts/          # Blog posts (YYYY-MM-DD-title.md)
-├── css/style.css    # Single CSS file (Cyberpunk Brutalism)
-├── img/             # Images
-├── index.html       # Homepage
-├── about.md         # About page
-├── archive.html     # Post archive
-├── blog.html        # Blog listing with pagination
-└── 404.html         # Error page
-```
+### Layout Chain
 
-### Design System
-- **Colors**: Dark background (#0a0a0f), Cyan accent (#00ffff)
-- **Typography**: Space Mono (display), IBM Plex Sans (body), JetBrains Mono (code)
-- **Style**: Cyberpunk Brutalism - sharp corners, neon glows, grid backgrounds
+`default.html` is the root layout. Both `post.html` and `page.html` extend it via `layout: default`.
+
+- `default.html` -- site shell: header nav, `<main>{{ content }}</main>`, footer. Includes Google Analytics, Open Graph/Twitter meta, font loading.
+- `post.html` -- article template with schema.org markup, prev/next navigation. Has its own `<style>` block for post-specific styles.
+- `page.html` -- simple title + content wrapper. Also has a page-specific `<style>` block.
+
+### Data Files
+
+`_data/projects.yml` -- structured project data (name, tagline, description, stars, award, tech, url). Used by both `index.html` (featured projects) and `projects.html` (full listing).
+
+### CSS Architecture
+
+Single stylesheet at `css/style.css` using CSS custom properties (`:root` vars). Individual layouts and pages add page-specific styles via inline `<style>` blocks at the bottom of their HTML files (`index.html`, `blog.html`, `post.html`, `page.html`, `projects.html`).
+
+Key design tokens are defined as CSS custom properties: colors (`--bg-primary`, `--accent-cyan`), fonts (`--font-display`, `--font-body`, `--font-mono`), spacing (`--space-xs` through `--space-3xl`), effects (`--glow-cyan`, `--border-glow`).
+
+### Pagination
+
+`jekyll-paginate` only works on `blog.html` (the file with `paginate_path` matching). The homepage (`index.html`) uses `site.posts limit:6` directly -- it does not paginate. The homepage also renders featured projects from `site.data.projects limit:3`.
+
+### Build Constraints
+
+The `Gemfile` uses the `github-pages` gem, which pins Jekyll and all plugin versions to match GitHub Pages. Do not add gems outside the [GitHub Pages dependency list](https://pages.github.com/versions/). The `future: true` config flag means future-dated posts are published.
 
 ## Content Guidelines
 
 - **No emojis** in any content, code comments, or documentation
-- Author name: "Calder" (site) or "Jason Robert" (posts)
-- Posts are English-only (bilingual system removed)
+- Author name: "Calder" everywhere
+- Posts are English-only
 
-### Blog Posts
+### Blog Post Front Matter
 
-Posts must follow naming: `_posts/YYYY-MM-DD-title.md`
+Posts go in `_posts/` with filename `YYYY-MM-DD-title.md`.
 
-Front matter:
 ```yaml
 ---
 layout: post
@@ -65,7 +65,7 @@ subtitle: "Optional subtitle"
 description: "SEO meta description"
 date: YYYY-MM-DD HH:MM:SS
 updated: YYYY-MM-DD HH:MM:SS  # optional
-author: "Jason Robert"
+author: "Calder"
 header-img: "img/post-bg-*.jpg"  # optional
 tags:
   - Tag1
@@ -75,12 +75,10 @@ tags:
 
 ## Deployment
 
-- Push to `master` triggers GitHub Actions deployment
-- Workflow: `.github/workflows/jekyll.yml`
-- Ruby 3.1, auto-deploys to GitHub Pages
-- Future-dated posts ARE published (`future: true` in config)
+Push to `master` triggers GitHub Actions (`.github/workflows/jekyll.yml`). Ruby 3.1, auto-deploys to GitHub Pages. No manual build step needed.
 
 ### Plugins
-- `jekyll-paginate` - Blog pagination
-- `jekyll-seo-tag` - SEO meta tags
-- `jekyll-sitemap` - Auto-generated sitemap.xml
+
+- `jekyll-paginate` -- blog pagination
+- `jekyll-seo-tag` -- SEO meta tags (auto-injected)
+- `jekyll-sitemap` -- auto-generated sitemap.xml

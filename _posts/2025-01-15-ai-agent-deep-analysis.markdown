@@ -4,11 +4,8 @@ title: "AI Agent Architecture Deep Dive: What 340+ Days of Production Systems Ac
 subtitle: "Real architectural decisions, performance disasters, and the evolution from simple chatbot to production-ready autonomous agents across 3 projects"
 description: "Comprehensive technical analysis of AI Agent architecture patterns based on real production experience. Includes actual design decisions, performance optimization lessons, multi-agent coordination failures, framework trade-offs, and the evolution from 2,340 visits/day to 9,457 visits/day across MeetSpot, NeighborHelp, and Enterprise AI systems."
 date: 2025-01-15 14:30:00
-author: "Jason Robert"
+author: "Calder"
 header-img: "img/post-bg-ai-analysis.jpg"
-catalog: true
-multilingual: true
-reading_time: 28
 tags:
     - AI Agent
     - Production Architecture
@@ -20,7 +17,7 @@ tags:
     - Distributed Systems
 seo:
   keywords: "AI Agent architecture real implementation, production agent system design, multi-agent coordination patterns, AI performance optimization lessons, LangChain production experience, agent framework comparison, autonomous system architecture, real AI infrastructure costs"
-  author: "Jason Robert"
+  author: "Calder"
   publisher: "Jason's Tech Blog"
 tldr:
   - "Agent20%+3+++"

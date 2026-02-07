@@ -4,11 +4,8 @@ title: "AI Agent Reality Check: What 28 Months of Building Production Systems Ac
 subtitle: "Real wins, embarrassing failures, and expensive lessons from deploying AI Agents to 3,967 users—the unfiltered truth nobody talks about"
 description: "Honest account of building 3 production AI Agent systems over 28 months serving 3,967 users. Real performance metrics vs marketing claims, specific failures with actual costs, framework comparison based on production usage, and the expensive lessons about when AI Agents work (and when they spectacularly don't)."
 date: 2025-01-14 14:30:00
-author: "Jason Robert"
+author: "Calder"
 header-img: "img/post-bg-reality-check.jpg"
-catalog: true
-multilingual: true
-reading_time: 26
 tags:
     - AI Agent
     - Production Experience
@@ -20,7 +17,7 @@ tags:
     - Performance Analysis
 seo:
   keywords: "AI Agent reality check, production AI deployment, real AI Agent metrics, framework comparison actual usage, AI Agent failures costs, autonomous system implementation, LLM agent performance, real AI ROI analysis"
-  author: "Jason Robert"
+  author: "Calder"
   publisher: "Jason's Tech Blog"
 tldr:
   - "10.6%4-8%15-25%23++"

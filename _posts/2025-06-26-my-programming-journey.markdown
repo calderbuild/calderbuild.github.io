@@ -4,11 +4,8 @@ title: "From Zero to Full-Stack: My Chaotic, Beautiful Programming Journey"
 subtitle: "Two years of late-night debugging, epic fails, and small victories that changed everything"
 description: "An honest account of my programming journey from complete beginner to award-winning developer. Real failures, unexpected breakthroughs, and the messy truth about learning to code in 2023-2025."
 date: 2025-06-26 10:30:00
-author: "Jason Robert"
+author: "Calder"
 header-img: "img/post-bg-2015.jpg"
-catalog: true
-multilingual: true
-reading_time: 15
 tags:
     - Learning Journey
     - Career Growth
@@ -16,7 +13,7 @@ tags:
     - Personal Story
 seo:
   keywords: "learning to code, programming journey, full-stack developer path, self-taught programmer, coding bootcamp alternative"
-  author: "Jason Robert"
+  author: "Calder"
   publisher: "Jason's Tech Blog"
 ---
 

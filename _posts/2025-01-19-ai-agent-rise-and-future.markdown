@@ -4,11 +4,8 @@ title: "AI Agent Rise and Future: What 28 Months of Building Production Systems 
 subtitle: "Real evolution witnessed, market transformation documented, and honest lessons from the chatbot-to-agent paradigm shift across 3,967 production users"
 description: "Comprehensive analysis of AI Agent evolution based on real production experience across 28 months. Documents the actual paradigm shift from chatbots to autonomous agents, market transformation with real metrics, technical architecture evolution, honest challenges encountered, and future trends based on production trajectory rather than hype. Includes specific dates, real failures, and lessons from serving 3,967 users with autonomous AI systems."
 date: 2025-01-19 10:00:00
-author: "Jason Robert"
+author: "Calder"
 header-img: "img/post-bg-ai-agent-future.jpg"
-catalog: true
-multilingual: true
-reading_time: 32
 tags:
     - AI Agent
     - Autonomous Systems
@@ -20,7 +17,7 @@ tags:
     - Honest Analysis
 seo:
   keywords: "AI Agent evolution real experience, chatbot to autonomous agent transformation, production AI systems 28 months, AI Agent market reality, autonomous intelligence challenges, AI Agent future trends data, LLM-powered agents production, real AI development lessons"
-  author: "Jason Robert"
+  author: "Calder"
   publisher: "Jason's Tech Blog"
 ---
 

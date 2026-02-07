@@ -4,11 +4,8 @@ title: "Frontend Developer Roadmap 2025: My Real Journey from Zero to Full-Stack
 subtitle: "Complete learning path with React 18, Vue 3, TypeScript, Next.js—based on 2 years of real projects, mistakes, and breakthroughs"
 description: "The complete 2025 frontend development roadmap based on my actual 2-year journey. Real timelines, project breakdowns, honest failures, and specific metrics from learning HTML/CSS to deploying production full-stack applications with React, TypeScript, and Node.js."
 date: 2025-06-27 10:00:00
-author: "Jason Robert"
+author: "Calder"
 header-img: "img/post-bg-js-version.jpg"
-catalog: true
-multilingual: true
-reading_time: 18
 tags:
     - Frontend Roadmap
     - React 18
@@ -20,7 +17,7 @@ tags:
     - Career Guide
 seo:
   keywords: "frontend developer roadmap 2025, learn React TypeScript, full-stack JavaScript path, frontend to backend journey, web development learning timeline"
-  author: "Jason Robert"
+  author: "Calder"
   publisher: "Jason's Tech Blog"
 ---
 

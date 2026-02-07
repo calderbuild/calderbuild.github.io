@@ -4,11 +4,8 @@ title: "SEO Agent Deep Analysis: What $47K and 18 Months of AI-Powered SEO Actua
 subtitle: "Real experiments, embarrassing failures, and expensive lessons from automating SEO with AI—the truth about AI-generated content and Google's algorithm"
 description: "Honest account of 18 months experimenting with AI-powered SEO across 3 projects serving 12,400+ users. Real metrics on organic traffic, specific failures with AI content, Google penalties discovered, and what actually works versus hype when combining AI Agents with search optimization."
 date: 2025-01-18 10:00:00
-author: "Jason Robert"
+author: "Calder"
 header-img: "img/post-bg-seo-agent.jpg"
-catalog: true
-multilingual: true
-reading_time: 22
 tags:
     - SEO Agent
     - AI SEO
@@ -20,7 +17,7 @@ tags:
     - AI Content
 seo:
   keywords: "SEO Agent real implementation, AI-powered SEO reality, Google AI content penalty, automated SEO experiences, AI content generation SEO, search optimization with AI, production SEO metrics, AI SEO failures costs"
-  author: "Jason Robert"
+  author: "Calder"
   publisher: "Jason's Tech Blog"
 ---
 

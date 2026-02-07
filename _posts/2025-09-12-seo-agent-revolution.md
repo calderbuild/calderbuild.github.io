@@ -4,11 +4,8 @@ title: "SEO Agent Reality Check: What $47K in SEO Experiments Actually Taught Me
 subtitle: "Real SEO wins and disasters from 3 AI projects, 18 months of experimentation, and the expensive lessons about AI-generated content nobody tells you"
 description: "Honest account of implementing AI-powered SEO strategies across MeetSpot, NeighborHelp, and enterprise AI deployments. Includes real ranking data, Google penalties, $47K in SEO tool costs, specific failures with AI-generated content, and what actually works versus marketing hype. Based on 18 months of production SEO experience with AI agents."
 date: 2025-09-12 12:00:00
-author: "Jason Robert"
+author: "Calder"
 header-img: "img/post-bg-seo.jpg"
-catalog: true
-multilingual: true
-reading_time: 23
 tags:
     - SEO
     - AI Agents
@@ -20,7 +17,7 @@ tags:
     - Digital Marketing
 seo:
   keywords: "AI-powered SEO reality, SEO agent implementation, AI-generated content penalties, real SEO metrics, Google ranking improvements, SEO tool costs, AI content optimization, search algorithm failures, SEO experimentation lessons"
-  author: "Jason Robert"
+  author: "Calder"
   publisher: "Jason's Tech Blog"
 ---
 

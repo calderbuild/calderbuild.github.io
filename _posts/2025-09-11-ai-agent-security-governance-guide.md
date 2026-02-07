@@ -4,11 +4,8 @@ title: "AI Agent Security & Governance: Lessons from 3 Real Breaches and $47K in
 subtitle: "How I learned enterprise AI security the hard way—through prompt injection attacks, data leaks, and midnight crisis calls"
 description: "Real security and governance implementation guide based on actual breaches across MeetSpot, NeighborHelp, and enterprise AI deployments. Specific incidents, compliance challenges, honest security failures, and the governance framework that emerged from 340+ days of production experience."
 date: 2025-09-11 12:00:00
-author: "Jason Robert"
+author: "Calder"
 header-img: "img/post-bg-security.jpg"
-catalog: true
-multilingual: true
-reading_time: 24
 tags:
     - AI Security
     - Governance Framework
@@ -20,7 +17,7 @@ tags:
     - Prompt Injection
 seo:
   keywords: "AI agent security incidents, prompt injection attacks real cases, AI governance implementation, enterprise AI compliance, security breach lessons, AI risk management framework"
-  author: "Jason Robert"
+  author: "Calder"
   publisher: "Jason's Tech Blog"
 ---
 

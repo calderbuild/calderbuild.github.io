@@ -4,11 +4,8 @@ title: "Hello World - Beginning My Technical Journey"
 subtitle: "From first line of code to building real-world solutions"
 description: "Welcome to Jason's technical blog! Join me as I document my journey through AI development, full-stack engineering, and personal growth. Real experiences, honest insights, and practical lessons from the trenches."
 date: 2025-06-25 12:00:00
-author: "Jason"
+author: "Calder"
 header-img: "img/post-bg-2015.jpg"
-catalog: true
-multilingual: true
-reading_time: 10
 tags:
     - Personal Journey
     - Blog Launch
@@ -16,7 +13,7 @@ tags:
     - Software Engineering
 seo:
   keywords: "technical blog, AI development, full-stack developer, personal growth, software engineering journey"
-  author: "Jason Robert"
+  author: "Calder"
   publisher: "Jason's Tech Blog"
 ---
 

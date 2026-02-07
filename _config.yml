@@ -2,14 +2,14 @@
 # Minimal Jekyll Configuration
 
 title: "Calder's Lab"
-description: "AI Agent Architect building production-grade multi-agent systems. 28+ months experience."
+description: "Agent Developer building AI-driven MVPs, multi-agent systems, and open source tools."
 url: "https://calderbuild.github.io"
 baseurl: ""
 author: "Calder"
-email: calderbuilder@gmail.com
+email: johnrobertdestiny@gmail.com
 
 # SEO
-keywords: "AI Agent, Multi-Agent Systems, Web3, Intelligent Systems, AI Architect"
+keywords: "Agent Developer, AI Agent, Multi-Agent Systems, Open Source, Hackathon"
 
 # Build
 markdown: kramdown
@@ -32,26 +32,26 @@ kramdown:
 
 # Social
 github_username: calderbuild
-twitter_username:
-linkedin_username:
+twitter_username: CalderBuild
 
 # Analytics
 ga_track_id: G-DNFKJG8R74
 
 # Sidebar
 avatar: https://github.com/calderbuild.png
-bio: "AI Agent Architect | Multi-Agent Systems | Web3"
 
 # Links
 links:
   - title: "GitHub"
     url: "https://github.com/calderbuild"
+  - title: "X"
+    url: "https://x.com/CalderBuild"
+  - title: "Telegram"
+    url: "https://t.me/CalderBuild"
   - title: "CSDN"
     url: "https://blog.csdn.net/Soulrobert520"
   - title: "Juejin"
     url: "https://juejin.cn/user/2637056597039172"
-  - title: "MeetSpot"
-    url: "https://github.com/calderbuild/MeetSpot"
 
 # Exclude
 exclude:

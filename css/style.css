@@ -13,7 +13,7 @@
 
   --text-primary: #e8e8e8;
   --text-secondary: #a0a0a0;
-  --text-muted: #666;
+  --text-muted: #888;
 
   --accent-cyan: #00ffff;
   --accent-magenta: #ff00ff;
@@ -701,6 +701,177 @@ a:hover {
 ::selection {
   background: var(--accent-cyan);
   color: var(--bg-primary);
+}
+
+/* ==============================================
+   ACCESSIBILITY
+   ============================================== */
+
+:focus-visible {
+  outline: 2px solid var(--accent-cyan);
+  outline-offset: 2px;
+}
+
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+.post-content a {
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 255, 255, 0.4);
+  text-underline-offset: 3px;
+}
+
+.post-content a:hover {
+  text-decoration-color: var(--accent-cyan);
+}
+
+/* ==============================================
+   GRADIENT TEXT
+   ============================================== */
+
+.accent-gradient {
+  background: linear-gradient(135deg, var(--accent-cyan), var(--accent-magenta));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ==============================================
+   ANIMATIONS
+   ============================================== */
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.hero-tag { animation: fadeInUp 0.6s ease-out both 0.1s; }
+.hero-title { animation: fadeInUp 0.6s ease-out both 0.25s; }
+.hero-subtitle { animation: fadeInUp 0.6s ease-out both 0.4s; }
+.hero-cta { animation: fadeInUp 0.6s ease-out both 0.55s; }
+.hero-stats { animation: fadeInUp 0.6s ease-out both 0.7s; }
+
+.post-card:nth-child(1) { animation: fadeInUp 0.5s ease-out both 0.1s; }
+.post-card:nth-child(2) { animation: fadeInUp 0.5s ease-out both 0.2s; }
+.post-card:nth-child(3) { animation: fadeInUp 0.5s ease-out both 0.3s; }
+.post-card:nth-child(4) { animation: fadeInUp 0.5s ease-out both 0.4s; }
+
+@keyframes scanline {
+  from { transform: translateY(-100%); }
+  to { transform: translateY(100%); }
+}
+
+.projects .post-card {
+  overflow: hidden;
+}
+
+.projects .post-card::after {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 100%;
+  background: linear-gradient(transparent, rgba(0, 255, 255, 0.03), transparent);
+  transform: translateY(-100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.projects .post-card:hover::after {
+  animation: scanline 1.5s linear infinite;
+}
+
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+/* ==============================================
+   PROJECT CARD COLOR CYCLING
+   ============================================== */
+
+.projects .post-card:nth-child(4n+1)::before { background: var(--accent-cyan); }
+.projects .post-card:nth-child(4n+2)::before { background: var(--accent-magenta); }
+.projects .post-card:nth-child(4n+3)::before { background: var(--accent-green); }
+.projects .post-card:nth-child(4n+4)::before { background: var(--accent-yellow); }
+
+/* ==============================================
+   TERMINAL BLOCK
+   ============================================== */
+
+.terminal-block {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  line-height: 1.8;
+  background: rgba(10, 10, 15, 0.8);
+  border: 1px solid rgba(0, 255, 255, 0.15);
+  padding: var(--space-lg);
+  max-width: 320px;
+  color: var(--text-muted);
+}
+
+.terminal-block::before {
+  content: 'SYSTEM STATUS';
+  display: block;
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  color: var(--accent-cyan);
+  margin-bottom: var(--space-md);
+  padding-bottom: var(--space-sm);
+  border-bottom: 1px solid rgba(0, 255, 255, 0.1);
+}
+
+.terminal-line {
+  display: flex;
+  justify-content: space-between;
+  padding: 2px 0;
+}
+
+.terminal-val--active { color: var(--accent-green); }
+.terminal-val--cyan { color: var(--accent-cyan); }
+
+.terminal-cursor::after {
+  content: '_';
+  color: var(--accent-cyan);
+  animation: blink 1s step-end infinite;
+}
+
+/* ==============================================
+   HERO DEPTH & SECTION DIVIDERS
+   ============================================== */
+
+.hero::after {
+  content: '';
+  position: absolute;
+  top: 20%; left: -10%;
+  width: 500px; height: 500px;
+  background: radial-gradient(circle, rgba(0, 255, 255, 0.06) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: -1;
+}
+
+.section-header {
+  position: relative;
+  border-bottom: none;
+}
+
+.section-header::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 30%;
+  height: 1px;
+  background: linear-gradient(90deg, var(--accent-cyan), rgba(0, 255, 255, 0.3) 50%, transparent);
+}
+
+/* ==============================================
+   PROJECT HEADER
+   ============================================== */
+
+.project-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: var(--space-md);
 }
 
 /* Reduced Motion */

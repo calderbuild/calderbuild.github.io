@@ -5,11 +5,8 @@ subtitle: "What nobody tells you about deploying AI in enterprises—real storie
 description: "Complete enterprise AI Agent implementation guide based on 3 real deployments across banking, manufacturing, and retail. Honest account of budget battles, resistance management, technical debt, and the messy reality of enterprise AI transformation. Includes real metrics, failures, and lessons learned from $2M+ in implementation costs."
 date: 2025-09-11 12:00:00
 updated: 2025-12-23 16:00:00
-author: "Jason Robert"
+author: "Calder"
 header-img: "img/post-bg-enterprise.jpg"
-catalog: true
-multilingual: true
-reading_time: 25
 tags:
     - AI Agent
     - Enterprise Implementation
@@ -20,7 +17,7 @@ tags:
     - ROI Analysis
 seo:
   keywords: "enterprise AI implementation, AI Agent deployment, enterprise digital transformation, AI project management, enterprise AI ROI, change management AI, enterprise AI architecture"
-  author: "Jason Robert"
+  author: "Calder"
   publisher: "Jason's Tech Blog"
 ---
 

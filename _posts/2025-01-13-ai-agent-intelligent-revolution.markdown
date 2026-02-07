@@ -5,11 +5,8 @@ subtitle: "From answering questions to executing tasks—what I learned building
 description: "Deep dive into AI Agents' evolution from knowledge providers to task executors. Honest analysis of capabilities, limitations, and real-world applications based on hands-on experience with MeetSpot and NeighborHelp platforms."
 date: 2025-01-13 16:45:00
 updated: 2025-12-23 16:00:00
-author: "Jason Robert"
+author: "Calder"
 header-img: "img/post-bg-digital-partner.jpg"
-catalog: true
-multilingual: true
-reading_time: 18
 tags:
     - AI Agent
     - Autonomous Systems
@@ -18,7 +15,7 @@ tags:
     - Technology Evolution
 seo:
   keywords: "AI Agent revolution, autonomous agents, task execution, human-computer interaction, AI limitations, enterprise AI deployment"
-  author: "Jason Robert"
+  author: "Calder"
   publisher: "Jason's Tech Blog"
 ---
 
