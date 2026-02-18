@@ -147,7 +147,7 @@ I'm not just shouting into the void. I want to hear from you:
 
 ### Real Talk About Email
 
- **Email**: johnrobertdestiny@gmail.com
+**Email**: johnrobertdestiny@gmail.com
 
 I actually check this. But please:
 -  Ask specific technical questions
@@ -192,7 +192,7 @@ Let's grow together.
 
 *If this resonated with you, share it with someone who's just starting their coding journey. We all need encouragement.*
 
-** Want posts delivered to your inbox?** Subscribe to my newsletter (link in sidebar) - no spam, just honest technical content.
+**Want posts delivered to your inbox?** Subscribe to my newsletter (link in sidebar) - no spam, just honest technical content.
 
 </div>
 
@@ -313,9 +313,9 @@ Let's grow together.
 
 -  **GitHub**: [@calderbuild](https://github.com/calderbuild) - Fork,,issues
 
--  ****: [](https://juejin.cn/user/2637056597039172) - ()
+-  **Juejin**: [Juejin](https://juejin.cn/user/2637056597039172) - ()
 
--  **CSDN**: [](https://blog.csdn.net/Soulrobert520) - 
+-  **CSDN**: [CSDN](https://blog.csdn.net/Soulrobert520) -
 
 ### 
 
@@ -326,7 +326,7 @@ Let's grow together.
 
 ### 
 
- ****: johnrobertdestiny@gmail.com
+**Email**: johnrobertdestiny@gmail.com
 
 :
 -  
@@ -371,6 +371,6 @@ Let's grow together.
 
 *,*
 
-** ?** newsletter()——,
+**?** newsletter()——,
 
 </div>

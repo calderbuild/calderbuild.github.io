@@ -1205,9 +1205,9 @@ const theRealityCheck = {
 
 *Want to discuss AI Agent reality checks or share your own production experiences? I respond to every message:*
 
-** Email**: johnrobertdestiny@gmail.com
-** GitHub**: [@calderbuild](https://github.com/calderbuild)
-** Other platforms**: [Juejin](https://juejin.cn/user/2637056597039172) | [CSDN](https://blog.csdn.net/Soulrobert520)
+**Email**: johnrobertdestiny@gmail.com
+**GitHub**: [@calderbuild](https://github.com/calderbuild)
+**Other platforms**: [Juejin](https://juejin.cn/user/2637056597039172) | [CSDN](https://blog.csdn.net/Soulrobert520)
 
 ---
 
@@ -1248,7 +1248,7 @@ const theRealityCheck = {
 |  |  |  | AI |  |  |  |  |  |
 |------|--------|----------|--------|--------|------------|--------|--------|----------|
 | **MeetSpot Agent** | 500+ | 180 | LangChain 0.1.x | 87.3% | 4.2 | $340 | $47,000 | 234 |
-| ** Agent** | 340+ | 120 | (GPT-4 API) | 91.8% | 2.8 | $180 | $28,000 | :5 |
+| **Agent** | 340+ | 120 | (GPT-4 API) | 91.8% | 2.8 | $180 | $28,000 | :5 |
 | **AI Agent** | 3,127 | 240+ | LangChain+ | 89.4% | 3.7 | $8,400 | $2,800,000 | $847 API |
 
 **AI Agent**(28):
@@ -1414,10 +1414,10 @@ const theRealityCheck = {
 
 *AI Agent?:*
 
-** **: johnrobertdestiny@gmail.com
-** GitHub**: [@calderbuild](https://github.com/calderbuild)
-** **: [](https://juejin.cn/user/2637056597039172)
-** CSDN**: [](https://blog.csdn.net/Soulrobert520)
+**Email**: johnrobertdestiny@gmail.com
+**GitHub**: [@calderbuild](https://github.com/calderbuild)
+**Juejin**: [Juejin](https://juejin.cn/user/2637056597039172)
+**CSDN**: [CSDN](https://blog.csdn.net/Soulrobert520)
 
 ---
 

@@ -640,33 +640,33 @@ Here are real resistance scenarios and what actually worked:
 
 ### "I Don't Trust AI"
 
-** Failed Response**: "Our AI has 94.3% accuracy!"
-** Working Response**: "You shouldn't blindly trust it. That's why you can always check its work and override it. Think of it like a junior colleague—helpful, but you're still the expert."
+**Failed Response**: "Our AI has 94.3% accuracy!"
+**Working Response**: "You shouldn't blindly trust it. That's why you can always check its work and override it. Think of it like a junior colleague—helpful, but you're still the expert."
 
 ### "It Will Take My Job"
 
-** Failed Response**: "No it won't!" (Impossible to guarantee)
-** Working Response**: "Here's our commitment in writing: [specific job security guarantee]. And here's how this changes your role: [concrete new responsibilities that AI enables]."
+**Failed Response**: "No it won't!" (Impossible to guarantee)
+**Working Response**: "Here's our commitment in writing: [specific job security guarantee]. And here's how this changes your role: [concrete new responsibilities that AI enables]."
 
 ### "My Work Is Too Complex For AI"
 
-** Failed Response**: "Our AI can handle complex tasks!"
-** Working Response**: "You're absolutely right—AI can't do your job. But it can handle the 40% of your work that's repetitive, so you can focus on the 60% that requires your expertise. Want to try it on [specific simple task] first?"
+**Failed Response**: "Our AI can handle complex tasks!"
+**Working Response**: "You're absolutely right—AI can't do your job. But it can handle the 40% of your work that's repetitive, so you can focus on the 60% that requires your expertise. Want to try it on [specific simple task] first?"
 
 ### "The AI Makes Mistakes"
 
-** Failed Response**: "We're working on improving it."
-** Working Response**: "Yes, and here's how often: [specific error rate]. When it's uncertain, it flags the query for you. You catch mistakes we miss—want to help us train it to be better?"
+**Failed Response**: "We're working on improving it."
+**Working Response**: "Yes, and here's how often: [specific error rate]. When it's uncertain, it flags the query for you. You catch mistakes we miss—want to help us train it to be better?"
 
 ### "I Prefer Doing It Myself"
 
-** Failed Response**: "But AI is faster!"
-** Working Response**: "Totally understand. The AI is optional for cases where you want a second opinion or just don't want to deal with routine stuff. You're in control of when to use it."
+**Failed Response**: "But AI is faster!"
+**Working Response**: "Totally understand. The AI is optional for cases where you want a second opinion or just don't want to deal with routine stuff. You're in control of when to use it."
 
 ### "What If It Gives Wrong Information to Customers?"
 
-** Failed Response**: "Our accuracy is 94.3%!"
-** Working Response**: "Great question. You review every AI response before it goes to customers. You're still the quality gatekeeper. AI drafts, you approve. Sound reasonable?"
+**Failed Response**: "Our accuracy is 94.3%!"
+**Working Response**: "Great question. You review every AI response before it goes to customers. You're still the quality gatekeeper. AI drafts, you approve. Sound reasonable?"
 
 ##  What This Means for the Future
 
@@ -789,9 +789,9 @@ You'll encounter resistance 1,247 more times in your next project. Remember: it'
 
 *Want to discuss AI resistance psychology or share your own experiences? I respond to every message:*
 
-** Email**: johnrobertdestiny@gmail.com
-** GitHub**: [@calderbuild](https://github.com/calderbuild)
-** Other platforms**: [Juejin](https://juejin.cn/user/2637056597039172) | [CSDN](https://blog.csdn.net/Soulrobert520)
+**Email**: johnrobertdestiny@gmail.com
+**GitHub**: [@calderbuild](https://github.com/calderbuild)
+**Other platforms**: [Juejin](https://juejin.cn/user/2637056597039172) | [CSDN](https://blog.csdn.net/Soulrobert520)
 
 ---
 
@@ -1041,10 +1041,10 @@ class TrustVoidAnalysis:
 
 28AI——AI:
 
--  ****: johnrobertdestiny@gmail.com - 
--  **GitHub**: [@calderbuild](https://github.com/calderbuild)
--  ****: [](https://juejin.cn/user/2637056597039172)
--  **CSDN**: [](https://blog.csdn.net/Soulrobert520)
+- **Email**: johnrobertdestiny@gmail.com
+- **GitHub**: [@calderbuild](https://github.com/calderbuild)
+- **Juejin**: [Juejin](https://juejin.cn/user/2637056597039172)
+- **CSDN**: [CSDN](https://blog.csdn.net/Soulrobert520)
 
 ---
 

@@ -1369,9 +1369,9 @@ Good luck. You'll need it. But you'll also learn more, grow more, and achieve mo
 
 *Want to discuss enterprise AI implementation? I respond to every email and genuinely enjoy talking about the messy reality of enterprise tech.*
 
-** Email**: johnrobertdestiny@gmail.com
-** GitHub**: [@calderbuild](https://github.com/calderbuild)
-** Other platforms**: [Juejin](https://juejin.cn/user/2637056597039172) | [CSDN](https://blog.csdn.net/Soulrobert520)
+**Email**: johnrobertdestiny@gmail.com
+**GitHub**: [@calderbuild](https://github.com/calderbuild)
+**Other platforms**: [Juejin](https://juejin.cn/user/2637056597039172) | [CSDN](https://blog.csdn.net/Soulrobert520)
 
 ---
 
@@ -1509,10 +1509,10 @@ def choose_first_project_smartly():
 
 AI,
 
-** **: johnrobertdestiny@gmail.com
-** GitHub**: [@calderbuild](https://github.com/calderbuild)
-** **: [](https://juejin.cn/user/2637056597039172)
-** CSDN**: [](https://blog.csdn.net/Soulrobert520)
+**Email**: johnrobertdestiny@gmail.com
+**GitHub**: [@calderbuild](https://github.com/calderbuild)
+**Juejin**: [Juejin](https://juejin.cn/user/2637056597039172)
+**CSDN**: [CSDN](https://blog.csdn.net/Soulrobert520)
 
 ---
 
