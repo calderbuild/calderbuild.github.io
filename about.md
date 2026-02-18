@@ -3,6 +3,8 @@ layout: page
 title: About
 description: "Agent Developer building AI-driven MVPs and multi-agent systems. 1.6k+ GitHub stars."
 permalink: /about/
+seo:
+  type: WebPage
 ---
 
 <div class="about-avatar-section">
