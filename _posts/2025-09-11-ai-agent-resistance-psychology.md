@@ -29,7 +29,7 @@ seo:
 
 I'd spent 720 hours building an intelligent system that could optimize meeting locations for multiple people using geographic algorithms and AI preference matching. He spent 0.3 seconds defaulting to the place he always went.
 
-"Your app is cool, Jason, but... I don't know, I just prefer deciding myself."
+"Your app is cool, Calder, but... I don't know, I just prefer deciding myself."
 
 That sentence, delivered with zero malice and complete honesty, taught me more about AI resistance psychology than any research paper ever could. The problem wasn't my algorithms. It wasn't my UX. It wasn't even about intelligence.
 
@@ -789,7 +789,7 @@ You'll encounter resistance 1,247 more times in your next project. Remember: it'
 
 *Want to discuss AI resistance psychology or share your own experiences? I respond to every message:*
 
-** Email**: jason@jasonrobert.me
+** Email**: johnrobertdestiny@gmail.com
 ** GitHub**: [@calderbuild](https://github.com/calderbuild)
 ** Other platforms**: [Juejin](https://juejin.cn/user/2637056597039172) | [CSDN](https://blog.csdn.net/Soulrobert520)
 
@@ -809,7 +809,7 @@ You'll encounter resistance 1,247 more times in your next project. Remember: it'
 
 720,AI0.3
 
-",Jason,...,"
+",Calder,...,"
 
 ,,AI
 
@@ -1041,7 +1041,7 @@ class TrustVoidAnalysis:
 
 28AI——AI:
 
--  ****: jason@jasonrobert.me - 
+-  ****: johnrobertdestiny@gmail.com - 
 -  **GitHub**: [@calderbuild](https://github.com/calderbuild)
 -  ****: [](https://juejin.cn/user/2637056597039172)
 -  **CSDN**: [](https://blog.csdn.net/Soulrobert520)

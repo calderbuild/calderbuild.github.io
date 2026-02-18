@@ -1518,7 +1518,7 @@ The future of AI Agents isn't in complex orchestration or sophisticated framewor
 
 *Have questions about AI Agent architecture? Want to share your own production experiences? I respond to every message:*
 
-** Email**: jason@jasonrobert.me
+** Email**: johnrobertdestiny@gmail.com
 ** GitHub**: [@calderbuild](https://github.com/calderbuild)
 ** Other platforms**: [Juejin](https://juejin.cn/user/2637056597039172) | [CSDN](https://blog.csdn.net/Soulrobert520)
 
@@ -1669,7 +1669,7 @@ AI Agent****
 
 *AI Agent??:*
 
-** **: jason@jasonrobert.me
+** **: johnrobertdestiny@gmail.com
 ** GitHub**: [@calderbuild](https://github.com/calderbuild)
 ** **: [](https://juejin.cn/user/2637056597039172)
 ** CSDN**: [](https://blog.csdn.net/Soulrobert520)

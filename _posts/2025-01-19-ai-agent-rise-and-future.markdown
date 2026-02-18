@@ -1018,7 +1018,7 @@ The AI Agent revolution is real. It's just slower, messier, and more human-depen
 
 *Want to discuss AI Agent evolution or share your own production experiences? I respond to every message:*
 
-** Email**: jason@jasonrobert.me
+** Email**: johnrobertdestiny@gmail.com
 ** GitHub**: [@calderbuild](https://github.com/calderbuild)
 ** Other platforms**: [Juejin](https://juejin.cn/user/2637056597039172) | [CSDN](https://blog.csdn.net/Soulrobert520)
 
@@ -1234,7 +1234,7 @@ AI Agent
 
 *AI Agent?:*
 
-** **: jason@jasonrobert.me
+** **: johnrobertdestiny@gmail.com
 ** GitHub**: [@calderbuild](https://github.com/calderbuild)
 ** **: [](https://juejin.cn/user/2637056597039172)
 ** CSDN**: [](https://blog.csdn.net/Soulrobert520)

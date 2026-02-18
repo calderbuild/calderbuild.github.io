@@ -86,7 +86,7 @@ I didn't wake up dreaming of becoming a frontend developer. I was bored during w
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Jason's Portfolio</title>
+    <title>Calder's Portfolio</title>
     <style>
         body {
             font-family: Comic Sans MS, cursive;  /* I thought this looked professional */
@@ -610,7 +610,7 @@ module.exports = mongoose.model('User', userSchema);
 
 **The Plaintext Password Incident** (September 8, 2023):
 
-Built my first auth system. Saved passwords directly to database. Friend who works in security saw my code and called me immediately: "Jason, NEVER store passwords in plaintext!"
+Built my first auth system. Saved passwords directly to database. Friend who works in security saw my code and called me immediately: "Calder, NEVER store passwords in plaintext!"
 
 Spent that weekend learning bcrypt:
 

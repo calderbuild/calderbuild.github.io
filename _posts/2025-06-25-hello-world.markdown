@@ -39,7 +39,7 @@ When I decided to build this blog, I could have just used Medium or Dev.to. But 
 # What Powers This Blog
 Static Site Generator: Jekyll 4.3+ (because I wanted to understand SSG)
 Hosting: GitHub Pages (free is beautiful)
-Custom Domain: jasonrobert.me (cost me $12/year, best investment ever)
+Custom Domain: calderbuild.github.io (cost me $12/year, best investment ever)
 Responsive Design: Hand-crafted CSS with Flexbox and Grid (yes, I wrote every breakpoint)
 
 Real-World Features I Actually Use:
@@ -147,7 +147,7 @@ I'm not just shouting into the void. I want to hear from you:
 
 ### Real Talk About Email
 
- **Email**: jason@jasonrobert.me
+ **Email**: johnrobertdestiny@gmail.com
 
 I actually check this. But please:
 -  Ask specific technical questions
@@ -218,7 +218,7 @@ Let's grow together.
 # 
 : Jekyll 4.3+ (SSG)
 : GitHub Pages ()
-: jasonrobert.me (12,)
+: calderbuild.github.io (12,)
 : CSS,FlexboxGrid(,)
 
 :
@@ -326,7 +326,7 @@ Let's grow together.
 
 ### 
 
- ****: jason@jasonrobert.me
+ ****: johnrobertdestiny@gmail.com
 
 :
 -  

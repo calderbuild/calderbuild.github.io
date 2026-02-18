@@ -26,7 +26,7 @@ seo:
 
 ##  Is It Worth It? A Brutally Honest Look at AI Agent ROI
 
-Last month, a CTO friend grabbed coffee with me and asked: "Jason, my boss wants hard ROI numbers for our AI Agent project. How do I calculate this without making stuff up?"
+Last month, a CTO friend grabbed coffee with me and asked: "Calder, my boss wants hard ROI numbers for our AI Agent project. How do I calculate this without making stuff up?"
 
 I laughed because I've been there. When we first deployed AI Agents at our university's innovation lab, we confidently told stakeholders it would "boost efficiency" and "reduce costs." But **how much efficiency? Which costs?** We had no clue.
 
@@ -319,7 +319,7 @@ A: It will. Build human-in-the-loop for high-stakes decisions. Monitor everythin
 Deploying AI Agents in your org? I'd love to hear about your experience:
 
 -  Comment below with your ROI challenges
--  Email me at jason@jasonrobert.me with specific questions
+-  Email me at johnrobertdestiny@gmail.com with specific questions
 -  Check out our [MeetSpot code on GitHub](https://github.com/calderbuild) (some components are open-sourced)
 
 If this post helped you make a better business case for AI Agents, share it with your team. Every successful AI deployment makes the ecosystem stronger for everyone.
@@ -336,7 +336,7 @@ If this post helped you make a better business case for AI Agents, share it with
 
 ##  ?AI Agent
 
-,CTO,:"Jason,AI AgentROI,,?"
+,CTO,:"Calder,AI AgentROI,,?"
 
 ,AI Agent,""""**??**
 
@@ -629,7 +629,7 @@ A:
 AI Agent?:
 
 -  ROI
--  jason@jasonrobert.me
+-  johnrobertdestiny@gmail.com
 -  [MeetSpotGitHub](https://github.com/calderbuild)()
 
 AI Agent,AI

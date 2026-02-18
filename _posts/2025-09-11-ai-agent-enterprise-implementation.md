@@ -25,7 +25,7 @@ seo:
 
 ##  The $2.3 Million Question Nobody Wants to Answer
 
-**March 15th, 2024, 9:47 AM**. I'm sitting in a conference room on the 28th floor of a major bank's headquarters in Shanghai. The CTO just asked me: "Jason, how much will this AI Agent project actually cost, and when will we see ROI?"
+**March 15th, 2024, 9:47 AM**. I'm sitting in a conference room on the 28th floor of a major bank's headquarters in Shanghai. The CTO just asked me: "Calder, how much will this AI Agent project actually cost, and when will we see ROI?"
 
 I had two spreadsheets in front of me. The *official* one showed $800,000 initial investment with 18-month ROI. The *real* one I'd built the night before showed $2.3 million all-in costs with 24-month breakeven—if everything went perfectly. Which, based on my three previous enterprise AI deployments, it absolutely would not.
 
@@ -1369,7 +1369,7 @@ Good luck. You'll need it. But you'll also learn more, grow more, and achieve mo
 
 *Want to discuss enterprise AI implementation? I respond to every email and genuinely enjoy talking about the messy reality of enterprise tech.*
 
-** Email**: jason@jasonrobert.me
+** Email**: johnrobertdestiny@gmail.com
 ** GitHub**: [@calderbuild](https://github.com/calderbuild)
 ** Other platforms**: [Juejin](https://juejin.cn/user/2637056597039172) | [CSDN](https://blog.csdn.net/Soulrobert520)
 
@@ -1385,7 +1385,7 @@ Good luck. You'll need it. But you'll also learn more, grow more, and achieve mo
 
 ##  230,
 
-**2024315,947**28CTO:"Jason,AI Agent,ROI?"
+**2024315,947**28CTO:"Calder,AI Agent,ROI?"
 
 **80,18ROI**,230,24——AI,
 
@@ -1509,7 +1509,7 @@ def choose_first_project_smartly():
 
 AI,
 
-** **: jason@jasonrobert.me
+** **: johnrobertdestiny@gmail.com
 ** GitHub**: [@calderbuild](https://github.com/calderbuild)
 ** **: [](https://juejin.cn/user/2637056597039172)
 ** CSDN**: [](https://blog.csdn.net/Soulrobert520)
