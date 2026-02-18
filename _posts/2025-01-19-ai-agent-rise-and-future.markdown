@@ -7,7 +7,7 @@ date: 2025-01-19 10:00:00
 author: "Calder"
 header-img: "img/post-bg-ai-agent-future.jpg"
 tags:
-    - AI Agent
+    - AI Agents
     - Autonomous Systems
     - Production Evolution
     - Market Transformation
@@ -18,7 +18,7 @@ tags:
 seo:
   keywords: "AI Agent evolution real experience, chatbot to autonomous agent transformation, production AI systems 28 months, AI Agent market reality, autonomous intelligence challenges, AI Agent future trends data, LLM-powered agents production, real AI development lessons"
   author: "Calder"
-  publisher: "Jason's Tech Blog"
+  publisher: "Calder's Lab"
 ---
 
 <div class="lang-en" markdown="1">

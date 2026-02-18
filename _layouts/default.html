@@ -3,22 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-  <meta name="description" content="{{ page.description | default: site.description }}">
-  <meta name="keywords" content="{{ site.keywords }}">
-  <meta name="author" content="{{ site.author }}">
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="{{ page.title | default: site.title }}">
-  <meta property="og:description" content="{{ page.description | default: site.description }}">
-  <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
-  <meta property="og:url" content="{{ page.url | absolute_url }}">
-  <meta property="og:image" content="{{ site.url }}/img/og-image.png">
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{{ page.title | default: site.title }}">
-  <meta name="twitter:description" content="{{ page.description | default: site.description }}">
+  <!-- SEO: title, description, OG, Twitter Card, JSON-LD -->
+  {% seo %}
 
   <!-- Fonts - Brutalist Raw + Developer Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,8 +18,8 @@
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="{{ '/img/favicon.ico' | relative_url }}">
 
-  <!-- Canonical -->
-  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <!-- RSS Feed -->
+  {% feed_meta %}
 
   {% if site.ga_track_id %}
   <!-- Google Analytics -->
@@ -44,26 +31,6 @@
     gtag('config', '{{ site.ga_track_id }}');
   </script>
   {% endif %}
-
-  <!-- JSON-LD Structured Data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ProfilePage",
-    "mainEntity": {
-      "@type": "Person",
-      "name": "Calder",
-      "alternateName": "Lin Luo",
-      "url": "{{ site.url }}",
-      "sameAs": [
-        "https://github.com/calderbuild",
-        "https://x.com/CalderBuild"
-      ],
-      "jobTitle": "Agent Developer",
-      "knowsAbout": ["Multi-Agent Systems", "AI Agents", "Prompt Engineering", "RAG"]
-    }
-  }
-  </script>
 </head>
 <body>
   <!-- Header -->
@@ -100,6 +67,7 @@
           {% for link in site.links %}
           <li><a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.title }}</a></li>
           {% endfor %}
+          <li><a href="{{ '/feed.xml' | relative_url }}">RSS</a></li>
         </ul>
         <p class="footer-copy">&copy; {{ 'now' | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
       </div>

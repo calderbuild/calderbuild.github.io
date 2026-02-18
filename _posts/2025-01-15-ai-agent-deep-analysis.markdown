@@ -7,7 +7,7 @@ date: 2025-01-15 14:30:00
 author: "Calder"
 header-img: "img/post-bg-ai-analysis.jpg"
 tags:
-    - AI Agent
+    - AI Agents
     - Production Architecture
     - System Design
     - Performance Optimization
@@ -18,7 +18,7 @@ tags:
 seo:
   keywords: "AI Agent architecture real implementation, production agent system design, multi-agent coordination patterns, AI performance optimization lessons, LangChain production experience, agent framework comparison, autonomous system architecture, real AI infrastructure costs"
   author: "Calder"
-  publisher: "Jason's Tech Blog"
+  publisher: "Calder's Lab"
 tldr:
   - "Agent20%+3+++"
   - "73%6.8s→4.2s-38%"

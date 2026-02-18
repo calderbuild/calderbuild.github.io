@@ -1,0 +1,158 @@
+---
+layout: default
+title: Tags
+description: Browse all topics
+permalink: /tags/
+---
+
+<section class="tags-index">
+  <header class="tags-header container">
+    <h1 class="page-title">Tags</h1>
+    <p class="page-description">Browse posts by topic.</p>
+  </header>
+
+  <div class="container">
+    {% assign sorted_tags = site.tags | sort %}
+    <div class="tags-cloud">
+      {% for tag_pair in sorted_tags %}
+        {% assign tag_name = tag_pair[0] %}
+        {% assign tag_posts = tag_pair[1] %}
+        {% assign tag_slug = tag_name | slugify %}
+        {% if tag_posts.size >= 2 %}
+        <a href="/tags/{{ tag_slug }}/" class="tags-cloud-item">
+          {{ tag_name }} <span class="tags-cloud-count">{{ tag_posts.size }}</span>
+        </a>
+        {% else %}
+        <a href="#{{ tag_slug }}" class="tags-cloud-item tags-cloud-item--minor">
+          {{ tag_name }} <span class="tags-cloud-count">{{ tag_posts.size }}</span>
+        </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <div class="tags-sections">
+      {% for tag_pair in sorted_tags %}
+        {% assign tag_name = tag_pair[0] %}
+        {% assign tag_posts = tag_pair[1] %}
+        {% assign tag_slug = tag_name | slugify %}
+        <div class="tags-section" id="{{ tag_slug }}">
+          <h2 class="tags-section-title">
+            {% if tag_posts.size >= 2 %}
+            <a href="/tags/{{ tag_slug }}/">{{ tag_name }}</a>
+            {% else %}
+            {{ tag_name }}
+            {% endif %}
+            <span class="tags-section-count">{{ tag_posts.size }}</span>
+          </h2>
+          <ul class="tags-post-list">
+            {% for post in tag_posts %}
+            <li>
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              <span class="post-meta">{{ post.date | date: "%b %d, %Y" }}</span>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<style>
+  .tags-header {
+    padding: calc(80px + var(--space-3xl)) 0 var(--space-2xl);
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 255, 255, 0.1);
+    margin-bottom: var(--space-2xl);
+  }
+
+  .tags-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+    margin-bottom: var(--space-3xl);
+    justify-content: center;
+  }
+
+  .tags-cloud-item {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-xs);
+    padding: var(--space-xs) var(--space-md);
+    border: 1px solid rgba(0, 255, 255, 0.2);
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: var(--text-primary);
+    transition: all 0.2s ease;
+  }
+
+  .tags-cloud-item:hover {
+    border-color: var(--accent-cyan);
+    color: var(--accent-cyan);
+  }
+
+  .tags-cloud-item--minor {
+    border-color: rgba(255, 255, 255, 0.1);
+    color: var(--text-muted);
+  }
+
+  .tags-cloud-count {
+    font-size: 0.7rem;
+    color: var(--accent-cyan);
+  }
+
+  .tags-sections {
+    display: grid;
+    gap: var(--space-2xl);
+  }
+
+  .tags-section-title {
+    font-size: 1.1rem;
+    margin-bottom: var(--space-md);
+    padding-bottom: var(--space-sm);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  .tags-section-title a {
+    color: var(--text-primary);
+  }
+
+  .tags-section-title a:hover {
+    color: var(--accent-cyan);
+  }
+
+  .tags-section-count {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-left: var(--space-xs);
+  }
+
+  .tags-post-list {
+    list-style: none;
+    padding: 0;
+  }
+
+  .tags-post-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: var(--space-md);
+    padding: var(--space-sm) 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+  }
+
+  .tags-post-list li a {
+    color: var(--text-secondary);
+    flex: 1;
+  }
+
+  .tags-post-list li a:hover {
+    color: var(--accent-cyan);
+  }
+
+  .tags-post-list .post-meta {
+    white-space: nowrap;
+    font-size: 0.8rem;
+  }
+</style>

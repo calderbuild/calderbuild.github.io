@@ -8,7 +8,7 @@ updated: 2025-12-23 16:00:00
 author: "Calder"
 header-img: "img/post-bg-digital-partner.jpg"
 tags:
-    - AI Agent
+    - AI Agents
     - Autonomous Systems
     - Human-Computer Interaction
     - Digital Assistants
@@ -16,7 +16,7 @@ tags:
 seo:
   keywords: "AI Agent revolution, autonomous agents, task execution, human-computer interaction, AI limitations, enterprise AI deployment"
   author: "Calder"
-  publisher: "Jason's Tech Blog"
+  publisher: "Calder's Lab"
 ---
 
 <div class="lang-en" markdown="1">

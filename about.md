@@ -8,13 +8,13 @@ permalink: /about/
 <div class="about-avatar-section">
   <img src="{{ site.avatar }}" alt="{{ site.author }}" class="about-avatar">
   <h2 style="margin-top: var(--space-lg); margin-bottom: var(--space-xs);">Lin Luo (Calder)</h2>
-  <p class="post-meta" style="margin-bottom: 0;">Agent Developer | Communication Engineering @ BISTU</p>
+  <p class="post-meta" style="margin-bottom: 0;">Agent Developer | Communication Engineering @ BISTU (Beijing Information Science & Technology University)</p>
   <p class="post-meta">Beijing, China | Expected Graduation: July 2028</p>
 </div>
 
 ## Profile
 
-Agent Developer and full-stack engineer with a track record of shipping AI-driven MVPs. Active contributor to **Datawhale** and **WaytoAGI** communities. Hackathon veteran -- functional demos from scratch in under 24 hours. **1.6k+ GitHub stars** across open source projects.
+I build multi-agent systems and AI-driven MVPs, taking projects from napkin sketch to production. My work spans LBS recommendation engines, vision-powered financial tools, and text-to-SQL agents -- most built under hackathon pressure and later refined for real users. Active contributor to **Datawhale** and **WaytoAGI** communities, with **1.6k+ GitHub stars** across open source projects.
 
 ---
 
@@ -81,7 +81,7 @@ Agent Developer and full-stack engineer with a track record of shipping AI-drive
 
 ## Connect
 
-Interested in working together? Reach me at [{{ site.email }}](mailto:{{ site.email }}).
+Open to open source collaboration, contract work, and full-time opportunities. Reach me at [{{ site.email }}](mailto:{{ site.email }}).
 
 Find me on [GitHub](https://github.com/{{ site.github_username }}), [X (Twitter)](https://x.com/CalderBuild), [Telegram](https://t.me/CalderBuild), [CSDN](https://blog.csdn.net/Soulrobert520), or [Juejin](https://juejin.cn/user/2637056597039172).
 

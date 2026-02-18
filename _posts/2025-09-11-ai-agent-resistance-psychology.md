@@ -7,7 +7,7 @@ date: 2025-09-11 12:00:00
 author: "Calder"
 header-img: "img/post-bg-psychology.jpg"
 tags:
-    - AI Agent
+    - AI Agents
     - Psychology
     - Change Management
     - User Adoption
@@ -18,7 +18,7 @@ tags:
 seo:
   keywords: "AI resistance psychology, user adoption challenges, AI change management, psychological barriers AI, human-AI trust building, technology resistance, AI implementation psychology"
   author: "Calder"
-  publisher: "Jason's Tech Blog"
+  publisher: "Calder's Lab"
 ---
 
 <div class="lang-en" markdown="1">

@@ -7,7 +7,7 @@ date: 2025-01-14 14:30:00
 author: "Calder"
 header-img: "img/post-bg-reality-check.jpg"
 tags:
-    - AI Agent
+    - AI Agents
     - Production Experience
     - Real Metrics
     - Technical Reality
@@ -18,7 +18,7 @@ tags:
 seo:
   keywords: "AI Agent reality check, production AI deployment, real AI Agent metrics, framework comparison actual usage, AI Agent failures costs, autonomous system implementation, LLM agent performance, real AI ROI analysis"
   author: "Calder"
-  publisher: "Jason's Tech Blog"
+  publisher: "Calder's Lab"
 tldr:
   - "10.6%4-8%15-25%23++"
   - "TOP535%API26%22%13%4%"

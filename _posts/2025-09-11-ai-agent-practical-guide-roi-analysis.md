@@ -8,7 +8,7 @@ updated: 2025-12-23 16:00:00
 author: "Calder"
 header-img: "img/post-bg-business.jpg"
 tags:
-    - AI Agent
+    - AI Agents
     - ROI
     - Business
     - Enterprise
@@ -19,7 +19,7 @@ tags:
 seo:
   keywords: "AI Agent ROI, enterprise AI deployment, business value analysis, AI implementation strategy, cost-benefit analysis, AI transformation"
   author: "Calder"
-  publisher: "Jason's Tech Blog"
+  publisher: "Calder's Lab"
 ---
 
 <div class="lang-en" markdown="1">

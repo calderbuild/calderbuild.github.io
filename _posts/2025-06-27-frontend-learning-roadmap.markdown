@@ -18,7 +18,7 @@ tags:
 seo:
   keywords: "frontend developer roadmap 2025, learn React TypeScript, full-stack JavaScript path, frontend to backend journey, web development learning timeline"
   author: "Calder"
-  publisher: "Jason's Tech Blog"
+  publisher: "Calder's Lab"
 ---
 
 <div class="lang-en" markdown="1">

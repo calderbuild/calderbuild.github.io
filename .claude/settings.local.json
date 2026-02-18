@@ -28,5 +28,8 @@
       "mcp__chrome-devtools__get_console_message"
     ],
     "deny": []
+  },
+  "enabledPlugins": {
+    "secondme-skills@secondme-skills": false
   }
 }

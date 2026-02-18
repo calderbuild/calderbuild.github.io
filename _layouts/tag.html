@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+<section class="tag-archive">
+  <header class="tag-header container">
+    <div class="tag-label">Tag</div>
+    <h1 class="page-title">{{ page.tag }}</h1>
+    <p class="tag-count">
+      {% assign count = 0 %}
+      {% for post in site.posts %}
+        {% if post.tags contains page.tag %}
+          {% assign count = count | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+      {{ count }} post{% if count != 1 %}s{% endif %}
+    </p>
+    <a href="/tags/" class="btn">All Tags</a>
+  </header>
+
+  <div class="container">
+    <div class="post-grid">
+      {% for post in site.posts %}
+        {% if post.tags contains page.tag %}
+        <article class="post-card">
+          <div class="post-meta">{{ post.date | date: "%b %d, %Y" }}</div>
+          <h3 class="post-title">
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h3>
+          {% if post.subtitle %}
+          <p class="post-excerpt">{{ post.subtitle | truncate: 120 }}</p>
+          {% elsif post.description %}
+          <p class="post-excerpt">{{ post.description | truncate: 120 }}</p>
+          {% endif %}
+          {% if post.tags.size > 0 %}
+          <div class="post-tags">
+            {% for tag in post.tags limit:3 %}
+            <a href="/tags/{{ tag | slugify }}/" class="tag">{{ tag }}</a>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </article>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<style>
+  .tag-header {
+    padding: calc(80px + var(--space-3xl)) 0 var(--space-2xl);
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 255, 255, 0.1);
+    margin-bottom: var(--space-2xl);
+  }
+
+  .tag-label {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--accent-cyan);
+    margin-bottom: var(--space-sm);
+  }
+
+  .tag-count {
+    font-family: var(--font-mono);
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    margin-bottom: var(--space-lg);
+  }
+</style>

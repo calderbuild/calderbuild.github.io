@@ -18,7 +18,7 @@ tags:
 seo:
   keywords: "SEO Agent real implementation, AI-powered SEO reality, Google AI content penalty, automated SEO experiences, AI content generation SEO, search optimization with AI, production SEO metrics, AI SEO failures costs"
   author: "Calder"
-  publisher: "Jason's Tech Blog"
+  publisher: "Calder's Lab"
 ---
 
 <div class="lang-en" markdown="1">

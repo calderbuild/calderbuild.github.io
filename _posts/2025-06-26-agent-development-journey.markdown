@@ -17,7 +17,7 @@ tags:
 seo:
   keywords: "AI agent development, award-winning AI apps, MeetSpot technical breakdown, NeighborHelp architecture, production AI deployment, agent architecture patterns"
   author: "Calder"
-  publisher: "Jason's Tech Blog"
+  publisher: "Calder's Lab"
 tldr:
   - "1-2+3-4Demo+5-8+9-246"
   - "30%70%+Demo++"

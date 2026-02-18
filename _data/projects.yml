@@ -16,15 +16,6 @@
   url: https://github.com/calderbuild/VibeDoc
   category: ai
 
-- name: "L'Oreal Data Insight"
-  tagline: "B2B Natural Language Database Query"
-  description: "Text-to-SQL agent allowing non-technical staff to query complex business databases using natural language."
-  stars: null
-  award: "Rising Star Prize, L'Oreal Hackathon"
-  tech: [Text-to-SQL, NLP]
-  url: null
-  category: data
-
 - name: WeFinance
   tagline: "Intelligent Financial Analysis Agent"
   description: "Vision LLMs achieving >90% structural extraction accuracy from complex billing images."
@@ -33,3 +24,12 @@
   tech: [Vision LLMs, Image Extraction]
   url: https://github.com/calderbuild/WeFinance
   category: ai
+
+- name: "L'Oreal Data Insight"
+  tagline: "B2B Natural Language Database Query"
+  description: "Text-to-SQL agent allowing non-technical staff to query complex business databases using natural language."
+  stars: null
+  award: "Rising Star Prize, L'Oreal Hackathon"
+  tech: [Text-to-SQL, NLP]
+  url: null
+  category: data

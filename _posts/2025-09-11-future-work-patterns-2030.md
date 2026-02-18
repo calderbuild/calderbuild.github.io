@@ -18,7 +18,7 @@ tags:
 seo:
   keywords: "future work patterns 2030, AI-augmented work reality, remote work with AI, human-AI collaboration experiences, productivity with AI tools, work-life balance AI era, career development AI age"
   author: "Calder"
-  publisher: "Jason's Tech Blog"
+  publisher: "Calder's Lab"
 ---
 
 <div class="lang-en" markdown="1">

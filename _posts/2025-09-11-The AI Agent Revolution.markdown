@@ -16,7 +16,7 @@ tags:
 seo:
   keywords: "AI agents production, LangChain tutorial, CrewAI implementation, multi-agent orchestration, enterprise AI deployment, no-code AI platforms"
   author: "Calder"
-  publisher: "Jason's Tech Blog"
+  publisher: "Calder's Lab"
 ---
 
 <div class="lang-en" markdown="1">

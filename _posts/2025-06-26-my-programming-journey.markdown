@@ -14,7 +14,7 @@ tags:
 seo:
   keywords: "learning to code, programming journey, full-stack developer path, self-taught programmer, coding bootcamp alternative"
   author: "Calder"
-  publisher: "Jason's Tech Blog"
+  publisher: "Calder's Lab"
 ---
 
 <div class="lang-en" markdown="1">

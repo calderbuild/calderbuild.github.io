@@ -8,7 +8,7 @@ updated: 2025-12-23 16:00:00
 author: "Calder"
 header-img: "img/post-bg-enterprise.jpg"
 tags:
-    - AI Agent
+    - AI Agents
     - Enterprise Implementation
     - Digital Transformation
     - Project Management
@@ -18,7 +18,7 @@ tags:
 seo:
   keywords: "enterprise AI implementation, AI Agent deployment, enterprise digital transformation, AI project management, enterprise AI ROI, change management AI, enterprise AI architecture"
   author: "Calder"
-  publisher: "Jason's Tech Blog"
+  publisher: "Calder's Lab"
 ---
 
 <div class="lang-en" markdown="1">

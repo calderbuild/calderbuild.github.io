@@ -13,17 +13,16 @@ title: Home
         <span class="accent-gradient">Next Wave</span> of AI Agents
       </h1>
       <p class="hero-subtitle">
-        Shipping multi-agent systems and AI-driven MVPs from idea to production.
-        Hackathon veteran. Open source contributor. 1.6k+ GitHub stars.
+        I ship multi-agent systems and AI-driven MVPs from idea to production.
       </p>
       <div class="hero-stats">
-        <span class="tag">1.6k+ Stars</span>
-        <span class="tag">4+ Hackathon Wins</span>
-        <span class="tag">Datawhale Contributor</span>
+        <a href="https://github.com/calderbuild" class="tag" target="_blank" rel="noopener">1.6k+ Stars</a>
+        <a href="/projects/" class="tag">4+ Hackathon Wins</a>
+        <a href="https://github.com/datawhalechina" class="tag" target="_blank" rel="noopener">Datawhale Contributor</a>
       </div>
       <div class="hero-cta">
         <a href="/projects/" class="btn btn-primary">View Projects</a>
-        <a href="/about/" class="btn">About Me</a>
+        <a href="mailto:johnrobertdestiny@gmail.com" class="btn">Get in Touch</a>
       </div>
     </div>
 
@@ -31,14 +30,6 @@ title: Home
       <div class="terminal-line">
         <span>agent.status</span>
         <span class="terminal-val--active">ONLINE</span>
-      </div>
-      <div class="terminal-line">
-        <span>github.stars</span>
-        <span class="terminal-val--cyan">1.6k+</span>
-      </div>
-      <div class="terminal-line">
-        <span>hackathon.wins</span>
-        <span class="terminal-val--active">4</span>
       </div>
       <div class="terminal-line">
         <span>active_projects</span>
@@ -92,7 +83,7 @@ title: Home
     </div>
 
     <div class="post-grid">
-      {% for post in site.posts limit:6 %}
+      {% for post in site.posts limit:3 %}
       <article class="post-card">
         <div class="post-meta">{{ post.date | date: "%b %d, %Y" }}</div>
         <h3 class="post-title">
@@ -106,7 +97,7 @@ title: Home
         {% if post.tags.size > 0 %}
         <div class="post-tags">
           {% for tag in post.tags limit:3 %}
-          <span class="tag">{{ tag }}</span>
+          <a href="/tags/{{ tag | slugify }}/" class="tag">{{ tag }}</a>
           {% endfor %}
         </div>
         {% endif %}
@@ -115,6 +106,25 @@ title: Home
     </div>
   </div>
 </section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Calder",
+    "alternateName": "Lin Luo",
+    "url": "https://calderbuild.github.io",
+    "sameAs": [
+      "https://github.com/calderbuild",
+      "https://x.com/CalderBuild"
+    ],
+    "jobTitle": "Agent Developer",
+    "knowsAbout": ["Multi-Agent Systems", "AI Agents", "Prompt Engineering", "RAG"]
+  }
+}
+</script>
 
 <style>
   .hero .container {

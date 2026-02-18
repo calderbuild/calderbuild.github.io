@@ -22,7 +22,7 @@ layout: default
     {% if page.tags.size > 0 %}
     <div class="post-tags">
       {% for tag in page.tags %}
-      <span class="tag">{{ tag }}</span>
+      <a href="/tags/{{ tag | slugify }}/" class="tag">{{ tag }}</a>
       {% endfor %}
     </div>
     {% endif %}

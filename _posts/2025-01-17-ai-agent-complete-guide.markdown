@@ -7,7 +7,7 @@ date: 2025-01-17 10:00:00
 author: "Calder"
 header-img: "img/post-bg-ai-agent-guide.jpg"
 tags:
-    - AI Agent
+    - AI Agents
     - Production Guide
     - Technical Architecture
     - System Design
@@ -18,7 +18,7 @@ tags:
 seo:
   keywords: "AI Agent complete guide production, real AI Agent implementation, LangChain vs custom comparison, AI Agent architecture from scratch, production AI system design, autonomous agent development guide, AI Agent performance optimization, real deployment experiences"
   author: "Calder"
-  publisher: "Jason's Tech Blog"
+  publisher: "Calder's Lab"
 tldr:
   - "LangChain1-2QPS>5010-50"
   - "389.4%MeetSpot 87.3% → NeighborHelp 91.8%60-95%"

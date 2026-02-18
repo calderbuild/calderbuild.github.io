@@ -18,7 +18,7 @@ tags:
 seo:
   keywords: "AI agents 2025 real costs, production AI deployment reality, agent reliability 55% vs 87% demo, technical breakthrough honest analysis, AI Agent cost optimization $847 to $312, enterprise agent failures, MeetSpot production metrics, agent washing detection, realistic AI expectations, production system lessons"
   author: "Calder"
-  publisher: "Jason's Tech Blog"
+  publisher: "Calder's Lab"
 tldr:
   - "$847/$312/63%++Prompt"
   - "Demo vs Demo 92% → 55%++"

@@ -2,7 +2,7 @@
 layout: post
 title: "Hello World - Beginning My Technical Journey"
 subtitle: "From first line of code to building real-world solutions"
-description: "Welcome to Jason's technical blog! Join me as I document my journey through AI development, full-stack engineering, and personal growth. Real experiences, honest insights, and practical lessons from the trenches."
+description: "Welcome to Calder's technical blog! Join me as I document my journey through AI development, full-stack engineering, and personal growth. Real experiences, honest insights, and practical lessons from the trenches."
 date: 2025-06-25 12:00:00
 author: "Calder"
 header-img: "img/post-bg-2015.jpg"
@@ -14,14 +14,14 @@ tags:
 seo:
   keywords: "technical blog, AI development, full-stack developer, personal growth, software engineering journey"
   author: "Calder"
-  publisher: "Jason's Tech Blog"
+  publisher: "Calder's Lab"
 ---
 
 <div class="lang-en" markdown="1">
 
 ##  Welcome - Let Me Introduce Myself
 
-Hi, I'm Jason! If you're reading this, you've just stumbled upon my corner of the internet where I share everything I'm learning about AI development, full-stack engineering, and the messy, wonderful journey of becoming a better software engineer.
+Hi, I'm Calder! If you're reading this, you've just stumbled upon my corner of the internet where I share everything I'm learning about AI development, full-stack engineering, and the messy, wonderful journey of becoming a better software engineer.
 
 Unlike those perfectly polished tech blogs where everything always works perfectly, I'm going to be honest with you. I'll share my wins *and* my failures. The elegant solutions *and* the midnight debugging sessions. The breakthrough moments *and* the times I spent three hours fixing a bug only to realize I had a typo in a variable name. (Yes, it happened last Tuesday.)
 
@@ -58,7 +58,7 @@ Things That Didn't Work on First Try:
 
 ### Design Philosophy (What I Learned the Hard Way)
 
-**Clean and Focused**: My first draft had 15 different fonts and 7 color schemes. My designer friend took one look and said, "Jason, this looks like a ransom note." Now? Two fonts maximum, consistent color palette, and lots of white space.
+**Clean and Focused**: My first draft had 15 different fonts and 7 color schemes. My designer friend took one look and said, "Calder, this looks like a ransom note." Now? Two fonts maximum, consistent color palette, and lots of white space.
 
 **Mobile-First**: 68% of my test traffic came from mobile. I learned this *after* I'd designed everything for desktop. Had to refactor the entire CSS. Lesson learned: Check analytics *before* building, not after.
 
@@ -200,7 +200,7 @@ Let's grow together.
 
 ##  
 
-,Jason!,,——,,,bug
+,Calder!,,——,,,bug
 
 :bug,,
 
@@ -237,7 +237,7 @@ Let's grow together.
 
 ### ()
 
-****: 157:"Jason,"?,,
+****: 157:"Calder,"?,,
 
 ****: 68%**CSS:,
 

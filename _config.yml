@@ -2,7 +2,7 @@
 # Minimal Jekyll Configuration
 
 title: "Calder's Lab"
-description: "Agent Developer building AI-driven MVPs, multi-agent systems, and open source tools."
+description: "Calder ships multi-agent systems and AI-driven MVPs from idea to production. 1.6k+ GitHub stars, 4 hackathon wins."
 url: "https://calderbuild.github.io"
 baseurl: ""
 author: "Calder"
@@ -23,6 +23,7 @@ plugins:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-feed
 
 kramdown:
   input: GFM
@@ -30,9 +31,24 @@ kramdown:
     block:
       line_numbers: true
 
-# Social
+# Social / jekyll-seo-tag
+twitter:
+  username: CalderBuild
+  card: summary_large_image
+social:
+  name: Calder
+  links:
+    - https://github.com/calderbuild
+    - https://x.com/CalderBuild
 github_username: calderbuild
 twitter_username: CalderBuild
+
+# Default front matter values
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /img/og-image.png
 
 # Analytics
 ga_track_id: G-DNFKJG8R74
@@ -61,6 +77,9 @@ exclude:
   - Gemfile.lock
   - README.md
   - CLAUDE.md
+  - AGENTS.md
+  - calderprofile.md
+  - docs
   - "*.sh"
   - vendor
   - .git

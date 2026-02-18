@@ -18,7 +18,7 @@ tags:
 seo:
   keywords: "AI agent security incidents, prompt injection attacks real cases, AI governance implementation, enterprise AI compliance, security breach lessons, AI risk management framework"
   author: "Calder"
-  publisher: "Jason's Tech Blog"
+  publisher: "Calder's Lab"
 ---
 
 <div class="lang-en" markdown="1">
