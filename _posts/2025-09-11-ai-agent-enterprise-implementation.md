@@ -1,4 +1,5 @@
 ---
+published: false
 layout: post
 title: "Enterprise AI Agent Implementation: From Boardroom Pitch to Production Hell (And Back)"
 subtitle: "What nobody tells you about deploying AI in enterprises—real stories from the trenches of digital transformation"

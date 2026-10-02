@@ -1,75 +1,50 @@
 ---
 layout: default
 title: Projects
-description: "Open source AI tools and hackathon builds by Calder. 1.6k+ GitHub stars."
+description: "AI agents and hackathon builds by Calder: MeetSpot, QualityAgent, VibeDoc, WeFinance, agentcut, SafeReceipt and more."
 permalink: /projects/
 ---
+{% assign featured = site.data.projects | where: "featured", true %}
+{% assign rest = site.data.projects | where_exp: "p", "p.featured != true" %}
 
-<section class="projects">
-  <header class="archive-header container container-narrow">
-    <h1 class="page-title">Projects</h1>
-    <p class="page-description">Open source tools and hackathon builds.</p>
-  </header>
+<header class="page-header container">
+  <h1 class="page-title">Projects</h1>
+  <p class="page-description">Each entry starts with the problem, then what the thing does, then the proof.</p>
+</header>
 
+<section class="section" aria-labelledby="main-title">
   <div class="container">
-    <div class="post-grid">
-      {% for project in site.data.projects %}
-      <article class="post-card">
-        <div class="project-header">
-          <div>
-            <h3 class="post-title">
-              {% if project.url %}
-              <a href="{{ project.url }}" target="_blank" rel="noopener">{{ project.name }}</a>
-              {% else %}
-              {{ project.name }}
-              {% endif %}
-            </h3>
-            <p class="post-meta">{{ project.tagline }}</p>
-          </div>
-          {% if project.stars %}
-          <span class="post-meta" style="color: var(--accent-yellow)">{{ project.stars }} stars</span>
-          {% endif %}
-        </div>
-
-        <p class="post-excerpt">{{ project.description }}</p>
-
-        {% if project.award %}
-        <p class="post-meta" style="color: var(--accent-green)">{{ project.award }}</p>
-        {% endif %}
-
-        <div class="post-tags">
-          {% for t in project.tech %}
-          <span class="tag">{{ t }}</span>
-          {% endfor %}
-        </div>
-
-        {% if project.url %}
-        <a href="{{ project.url }}" class="btn" style="margin-top: var(--space-md); font-size: 0.75rem; padding: var(--space-sm) var(--space-md);" target="_blank" rel="noopener">View on GitHub</a>
-        {% else %}
-        <span class="post-meta" style="margin-top: var(--space-md); display: inline-block;">Private Project</span>
-        {% endif %}
-      </article>
-      {% endfor %}
-    </div>
-
-    <div class="text-center" style="margin-top: var(--space-2xl);">
-      <p style="color: var(--text-secondary);">Want to collaborate?</p>
-      <a href="mailto:{{ site.email }}" class="btn btn-primary">Get in Touch</a>
-    </div>
+    <h2 class="section-title section-head" id="main-title">Main projects</h2>
+    {% include work.html projects=featured %}
   </div>
 </section>
 
-<style>
-  .archive-header {
-    padding: calc(80px + var(--space-3xl)) 0 var(--space-2xl);
-    text-align: center;
-    border-bottom: 1px solid rgba(0, 255, 255, 0.1);
-    margin-bottom: var(--space-xl);
-  }
+<section class="section" aria-labelledby="more-title">
+  <div class="container">
+    <h2 class="section-title section-head" id="more-title">Smaller tools and experiments</h2>
+    {% include work.html projects=rest %}
+  </div>
+</section>
 
-  @media (max-width: 480px) {
-    .post-grid {
-      grid-template-columns: 1fr;
-    }
-  }
-</style>
+<section class="section" id="hackathons" aria-labelledby="hack-title">
+  <div class="container">
+    <div class="section-head">
+      <h2 class="section-title" id="hack-title">Hackathon log</h2>
+      <span class="post-meta">{{ site.data.hackathons.size }} builds</span>
+    </div>
+    <table class="log">
+      <thead>
+        <tr><th scope="col">Event</th><th scope="col">Project</th><th scope="col">Result</th></tr>
+      </thead>
+      <tbody>
+        {% for h in site.data.hackathons %}
+        <tr>
+          <td>{{ h.event }}</td>
+          <td>{% if h.url %}<a href="{{ h.url }}">{{ h.project }}</a>{% else %}{{ h.project }}{% endif %}</td>
+          <td>{% if h.result %}{{ h.result }}{% else %}<span class="muted">Shipped</span>{% endif %}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>

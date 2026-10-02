@@ -1,0 +1,60 @@
+# Builds made for a named hackathon or competition. Source: repo descriptions and award records.
+- event: "Soul App Agent Hackathon Final"
+  project: MeetSpot
+  url: https://github.com/calderbuild/MeetSpot
+  result: "2nd Prize"
+- event: "OpenManus Hackathon"
+  project: VibeDoc
+  url: https://github.com/calderbuild/VibeDoc
+  result: "Best Topic Award"
+- event: "12th Nvidia Sky Hackathon"
+  project: WeFinance
+  url: https://github.com/calderbuild/WeFinance
+  result: "Excellence Award"
+- event: "L'Oréal Hackathon"
+  project: "Data Insight (text-to-SQL)"
+  result: "Star of Tomorrow Special Award"
+- event: "IEEE IES Generative AI Challenge 2026"
+  project: QualityAgent
+  result: "IEEE IRAI 2026 paper"
+- event: "Hack Apertus 2026"
+  project: Velum
+  url: https://github.com/calderbuild/velum
+- event: "BUIDL_QUESTS 2026"
+  project: SafeReceipt
+  url: https://github.com/calderbuild/SafeReceipt
+- event: "Alipay Agent Emergence Award"
+  project: "MeetSpot dining agent"
+  url: https://github.com/calderbuild/meetspot-fanju-agent
+- event: "Zhihu Hackathon 2026"
+  project: Xiansheng
+  url: https://github.com/calderbuild/xiansheng-zhihu-hackathon
+- event: "Monad Blitz V2"
+  project: TrustGate
+  url: https://github.com/calderbuild/trust-gate
+- event: "ETHGlobal Tokyo 2026"
+  project: Warrant
+  url: https://github.com/calderbuild/warrant
+- event: "CockroachDB x AWS Hackathon 2026"
+  project: Quorum
+  url: https://github.com/calderbuild/quorum
+- event: "UNESCO Youth Hackathon 2026"
+  project: Kin
+- event: "Memory Genesis Competition 2026"
+  project: MeetingMind
+  url: https://github.com/calderbuild/meetingmind
+- event: "Hello Future Apex Hackathon 2026"
+  project: AgentProof
+  url: https://github.com/calderbuild/agentseal
+- event: "Zhihu x Second Me A2A Hackathon"
+  project: PathSplit
+  url: https://github.com/calderbuild/PathSplit
+- event: "L'Oréal Brandstorm 2026"
+  project: Aether
+  url: https://github.com/calderbuild/Sensora
+- event: "ETHGlobal Cannes 2026"
+  project: TrueVoice
+  url: https://github.com/calderbuild/truevoice
+- event: "Cortensor Hackathon #4"
+  project: "Governance agent"
+  url: https://github.com/calderbuild/cortensor-governance-agent

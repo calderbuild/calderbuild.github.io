@@ -1,13 +1,12 @@
 ---
 layout: default
-title: 404
+title: Page not found
 permalink: /404.html
+sitemap: false
 ---
 
-<section class="error-page">
-  <div class="container text-center">
-    <h1 class="error-code">404</h1>
-    <p class="error-message">Page not found. The page you're looking for doesn't exist.</p>
-    <a href="/" class="btn btn-primary">Back to Home</a>
-  </div>
-</section>
+<header class="page-header container container-narrow">
+  <p class="post-meta">404</p>
+  <h1 class="page-title">This page isn't here.</h1>
+  <p class="page-description">If you followed a link to an old blog post, I took those offline. The work is on the <a href="{{ '/projects/' | relative_url }}">projects page</a>, or start from the <a href="{{ '/' | relative_url }}">homepage</a>.</p>
+</header>

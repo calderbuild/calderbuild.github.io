@@ -1,4 +1,5 @@
 ---
+published: false
 layout: post
 title: "AI Agent ROI Analysis - From Trial to Scale-up"
 subtitle: "Building measurable business value systems from real-world implementation"

@@ -1,4 +1,5 @@
 ---
+published: false
 layout: post
 title: "SEO Agent Reality Check: What $47K in SEO Experiments Actually Taught Me About AI-Powered Search Optimization"
 subtitle: "Real SEO wins and disasters from 3 AI projects, 18 months of experimentation, and the expensive lessons about AI-generated content nobody tells you"

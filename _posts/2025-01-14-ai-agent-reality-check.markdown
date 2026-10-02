@@ -1,4 +1,5 @@
 ---
+published: false
 layout: post
 title: "AI Agent Reality Check: What 28 Months of Building Production Systems Actually Taught Me"
 subtitle: "Real wins, embarrassing failures, and expensive lessons from deploying AI Agents to 3,967 users—the unfiltered truth nobody talks about"

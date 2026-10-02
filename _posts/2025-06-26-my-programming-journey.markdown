@@ -1,4 +1,5 @@
 ---
+published: false
 layout: post
 title: "From Zero to Full-Stack: My Chaotic, Beautiful Programming Journey"
 subtitle: "Two years of late-night debugging, epic fails, and small victories that changed everything"

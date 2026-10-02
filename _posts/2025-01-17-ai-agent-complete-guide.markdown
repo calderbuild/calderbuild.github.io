@@ -1,4 +1,5 @@
 ---
+published: false
 layout: post
 title: "AI Agent Complete Guide: What Building 3 Production Systems from Scratch Actually Taught Me"
 subtitle: "From $847 API disaster to 91.8% success rate—the complete journey of building real AI Agents that work in production"

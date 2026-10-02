@@ -1,4 +1,5 @@
 ---
+published: false
 layout: post
 title: "AI Agent Architecture Deep Dive: What 340+ Days of Production Systems Actually Taught Me About Design Patterns"
 subtitle: "Real architectural decisions, performance disasters, and the evolution from simple chatbot to production-ready autonomous agents across 3 projects"

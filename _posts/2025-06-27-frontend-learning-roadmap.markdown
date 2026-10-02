@@ -1,4 +1,5 @@
 ---
+published: false
 layout: post
 title: "Frontend Developer Roadmap 2025: My Real Journey from Zero to Full-Stack"
 subtitle: "Complete learning path with React 18, Vue 3, TypeScript, Next.js—based on 2 years of real projects, mistakes, and breakthroughs"

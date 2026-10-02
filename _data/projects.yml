@@ -1,35 +1,91 @@
+# Stars refreshed 2026-10-02 from `gh repo list calderbuild`.
+# featured: shown on the homepage, in this order.
+
 - name: MeetSpot
-  tagline: "Multi-User Optimal Meeting Point Agent"
-  description: "FastAPI-based LBS recommendation engine using geometric center algorithms and concurrent POI retrieval."
-  stars: "490+"
-  award: "2nd Prize, Soul App Agent Hackathon Final"
-  tech: [FastAPI, LBS, Geometric Algorithms]
+  problem: "A group cannot agree where to meet."
+  what: "Picks a meeting point that is fair to everyone and explains why each venue ranked where it did. It measures fairness in real commute time instead of straight-line distance."
+  proof: "2nd Prize, Soul App Agent Hackathon Final"
+  stars: 535
+  tech: [FastAPI, React, Maps APIs]
   url: https://github.com/calderbuild/MeetSpot
-  category: ai
+  demo: https://meetspot-irq2.onrender.com/
+  featured: true
+
+- name: QualityAgent
+  problem: "Every factory defect has to end up as ISO 9001 paperwork."
+  what: "Three agents turn a defect image into CAPA and PFMEA documents that follow ISO 9001, with a human supervising the output."
+  proof: "First-author paper, IEEE IRAI 2026. IEEE IES SYPA Travel Award."
+  tech: [Multi-Agent, Vision LLMs, ISO 9001]
+  featured: true
 
 - name: VibeDoc
-  tagline: "AI Product Manager & Architect"
-  description: "Transforms vague ideas into complete PRDs, system architectures, and AI coding prompts within 60-180 seconds."
-  stars: "360+"
-  award: "Best Topic Award, OpenManus Hackathon"
-  tech: [Gradio, Qwen 2.5, Prompt Engineering]
+  problem: "A rough product idea is not something you can build from."
+  what: "Turns the idea into a PRD, architecture diagrams, and AI coding prompts in a few minutes."
+  proof: "Best Topic Award, OpenManus Hackathon"
+  stars: 375
+  tech: [Gradio, Qwen, Prompt Engineering]
   url: https://github.com/calderbuild/VibeDoc
-  category: ai
+  featured: true
 
 - name: WeFinance
-  tagline: "Intelligent Financial Analysis Agent"
-  description: "Vision LLMs achieving >90% structural extraction accuracy from complex billing images."
-  stars: "120+"
-  award: "Excellence Award, 12th Nvidia Sky Hackathon"
-  tech: [Vision LLMs, Image Extraction]
+  problem: "Bill photos hold financial data nobody types in."
+  what: "Reads bill images with a vision LLM and turns them into spending insights."
+  proof: "Excellence Award, 12th Nvidia Sky Hackathon"
+  stars: 129
+  tech: [Vision LLMs, Python]
   url: https://github.com/calderbuild/WeFinance
-  category: ai
+  featured: true
 
-- name: "L'Oreal Data Insight"
-  tagline: "B2B Natural Language Database Query"
-  description: "Text-to-SQL agent allowing non-technical staff to query complex business databases using natural language."
-  stars: null
-  award: "Rising Star Prize, L'Oreal Hackathon"
-  tech: [Text-to-SQL, NLP]
-  url: null
-  category: data
+- name: agentcut
+  problem: "Making a short video takes six different jobs."
+  what: "Six agents split scripting, storyboard, voice, visuals, editing and review, and return a finished video from one prompt."
+  stars: 59
+  tech: [Multi-Agent, Video Generation]
+  url: https://github.com/calderbuild/agentcut
+  featured: true
+
+- name: SafeReceipt
+  problem: "When an AI agent fails, nobody can prove who was responsible."
+  what: "Gives each agent an on-chain identity and records its actions as receipts anyone can re-verify."
+  proof: "Contracts deployed on Monad Testnet, public evidence repo"
+  tech: [Solidity, Monad, Agent Identity]
+  url: https://github.com/calderbuild/SafeReceipt
+  featured: true
+
+- name: MD_Audit
+  problem: "Markdown docs ship with SEO problems nobody checks."
+  what: "Combines rule-based checks with AI semantic analysis to audit Markdown for SEO."
+  stars: 23
+  tech: [SEO, Python]
+  url: https://github.com/calderbuild/MD_Audit
+
+- name: Negotiation Arena
+  problem: "Two people want a deal but not the haggling."
+  what: "Two agents negotiate on behalf of their humans, streamed live so both sides can watch the reasoning."
+  stars: 10
+  tech: [Multi-Agent, Streaming]
+  url: https://github.com/calderbuild/negotiation-arena
+
+- name: AgentLens
+  problem: "MCP sessions are hard to debug after the fact."
+  what: "Records every JSON-RPC message between client and server, then replays the session in a visual debugger."
+  tech: [MCP, JSON-RPC]
+  url: https://github.com/calderbuild/agentlens
+
+- name: Groundskeeper
+  problem: "Generated SQL looks right until it runs."
+  what: "Writes dbt models from a real DataHub catalog, then proves the SQL is correct before you see it."
+  tech: [dbt, DataHub, Agents]
+  url: https://github.com/calderbuild/groundskeeper
+
+- name: Quorum
+  problem: "Agent fleets overwrite each other's memory."
+  what: "Serializable, auditable shared memory for agent fleets on CockroachDB."
+  tech: [CockroachDB, AWS, Agents]
+  url: https://github.com/calderbuild/quorum
+
+- name: BenchScope
+  problem: "New AI benchmarks appear faster than anyone can track."
+  what: "Collects and scores AI benchmarks every day, automatically."
+  tech: [Automation, Python]
+  url: https://github.com/calderbuild/BenchScope

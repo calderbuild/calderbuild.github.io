@@ -1,4 +1,5 @@
 ---
+published: false
 layout: post
 title: "SEO Agent Deep Analysis: What $47K and 18 Months of AI-Powered SEO Actually Taught Me"
 subtitle: "Real experiments, embarrassing failures, and expensive lessons from automating SEO with AI—the truth about AI-generated content and Google's algorithm"
