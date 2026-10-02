@@ -2,38 +2,11 @@
 layout: default
 ---
 
-<div class="page">
-  <header class="page-header container container-narrow">
-    <h1 class="page-title">{{ page.title }}</h1>
-    {% if page.description %}
-    <p class="page-description">{{ page.description }}</p>
-    {% endif %}
-  </header>
+<header class="page-header container container-narrow">
+  <h1 class="page-title">{{ page.title }}</h1>
+  {% if page.lede %}<p class="page-description">{{ page.lede }}</p>{% endif %}
+</header>
 
-  <div class="page-content container container-narrow">
-    {{ content }}
-  </div>
+<div class="prose container container-narrow">
+  {{ content }}
 </div>
-
-<style>
-  .page-header {
-    padding: calc(80px + var(--space-3xl)) 0 var(--space-2xl);
-    text-align: center;
-    border-bottom: 1px solid rgba(0, 255, 255, 0.1);
-  }
-
-  .page-title {
-    margin-bottom: var(--space-md);
-  }
-
-  .page-description {
-    font-size: 1.1rem;
-    color: var(--text-secondary);
-    max-width: 600px;
-    margin: 0 auto;
-  }
-
-  .page-content {
-    padding: var(--space-2xl) var(--space-lg) var(--space-3xl);
-  }
-</style>

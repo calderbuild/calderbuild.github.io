@@ -1,4 +1,5 @@
 ---
+published: false
 layout: post
 title: "The Psychology of AI Resistance: What 840 Users Taught Me About Fear, Trust, and Change"
 subtitle: "Real psychological barriers from 3 AI deployments, 8 shouting matches, and the day I became my own worst enemy"

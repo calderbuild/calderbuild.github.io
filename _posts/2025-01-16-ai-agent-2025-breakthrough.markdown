@@ -1,4 +1,5 @@
 ---
+published: false
 layout: post
 title: "AI Agent 2025 Breakthrough: What $847/Month in Production Costs Actually Taught Me About Real vs. Hype"
 subtitle: "18 months of building production AI systems—separating genuine technical progress from marketing noise with real metrics, honest failures, and expensive lessons"

@@ -3,26 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#EEF1F3" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0F1419" media="(prefers-color-scheme: dark)">
 
-  <!-- SEO: title, description, OG, Twitter Card, JSON-LD -->
   {% seo %}
 
-  <!-- Fonts - Brutalist Raw + Developer Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Schibsted+Grotesk:wght@600;700;800&display=swap" rel="stylesheet">
 
-  <!-- Styles -->
   <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
-
-  <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="{{ '/img/favicon.ico' | relative_url }}">
 
-  <!-- RSS Feed -->
   {% feed_meta %}
 
   {% if site.ga_track_id %}
-  <!-- Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_track_id }}"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -33,44 +29,33 @@
   {% endif %}
 </head>
 <body>
-  <!-- Header -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
   <header class="site-header">
-    <nav class="nav">
-      <a href="{{ '/' | relative_url }}" class="nav-brand">{{ site.title }}</a>
-
-      <button class="nav-toggle" aria-label="Toggle navigation" onclick="this.nextElementSibling.classList.toggle('active')">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-
+    <nav class="nav" aria-label="Main">
+      <a href="{{ '/' | relative_url }}" class="nav-brand">Calder <span class="nav-role">AI agent engineer</span></a>
       <ul class="nav-links">
-        <li><a href="{{ '/' | relative_url }}">Home</a></li>
-        <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
-        <li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
-        <li><a href="{{ '/about/' | relative_url }}">About</a></li>
-        <li><a href="{{ '/archive/' | relative_url }}">Archive</a></li>
+        <li><a href="{{ '/projects/' | relative_url }}"{% if page.url == '/projects/' %} aria-current="page"{% endif %}>Projects</a></li>
+        {% if site.posts.size > 0 %}<li><a href="{{ '/blog/' | relative_url }}"{% if page.url contains '/blog/' %} aria-current="page"{% endif %}>Writing</a></li>{% endif %}
+        <li><a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a></li>
+        <li><a href="mailto:{{ site.email }}">Email</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- Main Content -->
-  <main>
+  <main id="main">
     {{ content }}
   </main>
 
-  <!-- Footer -->
   <footer class="site-footer">
-    <div class="container">
-      <div class="footer-content">
-        <ul class="footer-links">
-          {% for link in site.links %}
-          <li><a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.title }}</a></li>
-          {% endfor %}
-          <li><a href="{{ '/feed.xml' | relative_url }}">RSS</a></li>
-        </ul>
-        <p class="footer-copy">&copy; {{ 'now' | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
-      </div>
+    <div class="container footer-content">
+      <ul class="footer-links">
+        {% for link in site.links %}
+        <li><a href="{{ link.url }}" rel="noopener me">{{ link.title }}</a></li>
+        {% endfor %}
+        {% if site.posts.size > 0 %}<li><a href="{{ '/feed.xml' | relative_url }}">RSS</a></li>{% endif %}
+      </ul>
+      <p class="footer-copy">&copy; {{ 'now' | date: '%Y' }} Calder</p>
     </div>
   </footer>
 </body>

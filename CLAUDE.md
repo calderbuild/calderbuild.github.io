@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Minimal Jekyll blog with Cyberpunk Brutalism design. Live at https://calderbuild.github.io.
+Personal site for Calder, an AI agent engineer. Live at https://calderbuild.github.io.
 
 ## Development Commands
 
@@ -28,33 +28,38 @@ Always run `bundle exec jekyll build` before pushing. For layout/content changes
 
 `default.html` is the root layout. Both `post.html` and `page.html` extend it via `layout: default`.
 
-- `default.html` -- site shell: header nav, `<main>{{ content }}</main>`, footer. Includes Google Analytics, Open Graph/Twitter meta, JSON-LD structured data, font loading.
-- `post.html` -- article template with schema.org markup, prev/next navigation. Has its own `<style>` block for post-specific styles.
-- `page.html` -- simple title + content wrapper. Also has a page-specific `<style>` block.
+- `default.html` -- site shell: skip link, header nav (Projects, Writing only when posts exist, About), `<main>`, footer built from `site.links`. Loads fonts, GA, `{% seo %}`.
+- `post.html` -- article: date, title, subtitle, tags (link to `/tags/#slug`), `.prose` body, prev/next.
+- `page.html` -- title + optional `lede` front matter + `.prose` body (used by `about.md`).
+
+Shared partials live in `_includes/`: `work.html` (project rows, takes `projects=`), `no-posts.html` (empty state for blog/archive/tags).
 
 ### Pages and Routing
 
-- `index.html` -- homepage: hero section, featured projects (`site.data.projects limit:3`), latest posts (`site.posts limit:6`). No pagination.
-- `blog/index.html` -- paginated blog listing using `paginator.posts`. This file MUST stay at `blog/index.html` (not root) for `paginate_path: "/blog/page:num/"` to work.
-- `projects.html` (`permalink: /projects/`) -- full project listing from `_data/projects.yml`.
-- `about.md` (`permalink: /about/`) -- uses `page` layout.
-- `archive.html` -- non-paginated chronological post list.
+- `index.html` -- homepage: claim + "reasoning trace" hero (each evidence line links to its proof), Now, selected work (`featured: true` projects), latest posts only if any exist.
+- `blog/index.html` -- paginated post list. MUST stay at `blog/index.html` for `paginate_path: "/blog/page:num/"` to work.
+- `projects.html` (`/projects/`) -- featured projects, smaller tools, and the hackathon log table (`#hackathons`).
+- `about.md` (`/about/`) -- experience, research (`#research`), awards, contact.
+- `archive.html`, `tags/index.html` -- chronological list and tag-grouped list; both show the empty state when there are no posts. There are no per-tag pages.
 
 ### Data Files
 
-`_data/projects.yml` -- structured project data (name, tagline, description, stars, award, tech, url, category). Used by both `index.html` (featured projects, limit:3, filtered by `project.url`) and `projects.html` (full listing, shows "Private Project" for null URLs).
+- `_data/projects.yml` -- `name, problem, what, proof, stars, tech, url, demo, featured`. Rows render problem first, then what it does, then proof. `url: null` shows "Code not public".
+- `_data/hackathons.yml` -- `event, project, url, result`. The homepage counts entries and entries with a `result`, so keep it to real, named events.
+
+Every number on the site must trace to a source (GitHub, an award record, the paper). Refresh stars with `gh repo list calderbuild --json name,stargazerCount`.
 
 ### CSS Architecture
 
-Single stylesheet at `css/style.css` using CSS custom properties (`:root` vars). Individual pages add page-specific styles via inline `<style>` blocks at the bottom of their HTML files (`index.html`, `blog/index.html`, `post.html`, `page.html`, `projects.html`).
+Single stylesheet `css/style.css`, no per-page `<style>` blocks. Tokens in `:root` with a `prefers-color-scheme: dark` override: `--paper #EEF1F3`, `--ink #11171D`, `--muted`, `--rule`, `--marker #FFE45C` (the only accent: the `.mark` highlight, used in the hero trace only), `--link #1F5FD1`. Fonts: Schibsted Grotesk (display), Newsreader (body), IBM Plex Mono (trace, dates, data). No JavaScript except GA.
 
-Key design tokens: colors (`--bg-primary: #0a0a0f`, `--accent-cyan: #00ffff`, `--accent-magenta: #ff00ff`), fonts (`--font-display: Space Mono`, `--font-body: IBM Plex Sans`, `--font-mono: JetBrains Mono`), spacing (`--space-xs` through `--space-3xl`), effects (`--glow-cyan`, `--border-glow`).
+### Posts
 
-No JavaScript in the codebase. Mobile nav toggle uses inline `onclick` to flip a CSS class.
+All 2025 posts are `published: false`: they quoted numbers that could not be backed up (2026-10-02). Do not republish them without rewriting every claim against a source.
 
 ### Pagination
 
-`jekyll-paginate` only works on `blog/index.html` (the file with `paginate_path` matching). The homepage (`index.html`) uses `site.posts limit:6` directly -- it does not paginate. Post permalinks follow `/blog/:year/:month/:day/:title/` from `_config.yml`.
+`jekyll-paginate` only works on `blog/index.html` (the file with `paginate_path` matching). The homepage (`index.html`) uses `site.posts limit:4` directly -- it does not paginate. Post permalinks follow `/blog/:year/:month/:day/:title/` from `_config.yml`.
 
 ### Build Constraints
 
@@ -105,3 +110,4 @@ Push to `master` triggers GitHub Actions (`.github/workflows/jekyll.yml`). Ruby 
 - `jekyll-paginate` -- blog pagination
 - `jekyll-seo-tag` -- SEO meta tags (auto-injected)
 - `jekyll-sitemap` -- auto-generated sitemap.xml
+- `jekyll-feed` -- auto-generated Atom feed at `/feed.xml`

@@ -1,4 +1,5 @@
 ---
+published: false
 layout: post
 title: "Future Work Patterns 2030: What 28 Months of AI-Augmented Work Actually Taught Me"
 subtitle: "Real observations from building 3 AI systems while working remotely—the messy truth about hybrid intelligence, skill decay, and work-life boundaries"

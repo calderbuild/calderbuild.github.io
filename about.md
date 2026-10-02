@@ -1,102 +1,41 @@
 ---
 layout: page
 title: About
-description: "Agent Developer building AI-driven MVPs and multi-agent systems. 1.6k+ GitHub stars."
+lede: "I build agents for decisions that involve more than one person, and I make them explain themselves."
+description: "Calder builds AI agents for group decisions. AI Engineer Intern at MindLight Tech, first-author paper at IEEE IRAI 2026, 19 hackathon builds."
 permalink: /about/
-seo:
-  type: WebPage
 ---
 
-<div class="about-avatar-section">
-  <img src="{{ site.avatar }}" alt="{{ site.author }}" class="about-avatar">
-  <h2 style="margin-top: var(--space-lg); margin-bottom: var(--space-xs);">Lin Luo (Calder)</h2>
-  <p class="post-meta" style="margin-bottom: 0;">Agent Developer | Communication Engineering @ BISTU (Beijing Information Science & Technology University)</p>
-  <p class="post-meta">Beijing, China | Expected Graduation: July 2028</p>
-</div>
-
-## Profile
-
-I build multi-agent systems and AI-driven MVPs, taking projects from napkin sketch to production. My work spans LBS recommendation engines, vision-powered financial tools, and text-to-SQL agents -- most built under hackathon pressure and later refined for real users. Active contributor to **Datawhale** and **WaytoAGI** communities, with **1.6k+ GitHub stars** across open source projects.
-
----
+Most of what I build is about a decision that more than one person has a stake in: where a group should meet ([MeetSpot](https://github.com/calderbuild/MeetSpot)), how two people settle a deal ([Negotiation Arena](https://github.com/calderbuild/negotiation-arena)), who is responsible when an agent gets it wrong ([SafeReceipt](https://github.com/calderbuild/SafeReceipt)). Each one has to show why it chose what it chose.
 
 ## Experience
 
-### DeepWisdom -- Agent Algorithm Intern
+<div class="role"><h3>MindLight Tech, AI Engineer Intern</h3><span class="mono">Apr 2026 to now, remote</span></div>
 
-*Oct 2025 - Jan 2026*
+<div class="role"><h3>DeepWisdom, Agent Algorithm Intern</h3><span class="mono">Oct 2025 to Apr 2026, remote</span></div>
 
-- **Enterprise SEO Agent:** Aggregated 7+ heterogeneous data sources (Google Trends, GDELT, etc.). Automated 150+ technical audits and implemented AI-driven auto-fixes, boosting core page SEO scores from **60 to 80**.
-- **DeepResearch Module:** Built a smart research report module using RAG to integrate sentiment analysis and BLS labor data. Transformed raw retrieval data into **2k-3k word high-density market insights**.
-- **Automation Workflows:** Architected an asynchronous "Local Script + Webhook" system to bypass high-concurrency API bottlenecks. Integrated internal marketing systems + Supabase + Zapier for closed-loop GEO content strategy.
+- Built an SEO agent that pulls from 7+ data sources (Google Trends, GDELT and others), runs 150+ technical checks, and applies fixes itself. Core page SEO scores went from 60 to 80.
+- Built a research-report module on RAG that combines sentiment analysis with BLS labor data and writes 2,000 to 3,000 word market briefs.
+- Moved slow API calls into a local-script-plus-webhook setup, wired to Supabase and Zapier, so the content pipeline stopped hitting rate limits.
 
----
+## Research
 
-## Technical Skills
+**QualityAgent**, first author, IEEE IRAI 2026 (Melbourne). Three agents turn a photo of a manufacturing defect into CAPA and PFMEA documents that follow ISO 9001, and a human supervises what they produce. The paper received the IEEE IES SYPA Travel Award.
 
-<div class="mb-lg">
-  <div class="post-meta text-cyan">AI & Agents</div>
-  <div class="post-tags">
-    <span class="tag">Prompt Engineering</span>
-    <span class="tag">RAG</span>
-    <span class="tag">Multi-Agent Orchestration</span>
-    <span class="tag">Text-to-SQL</span>
-    <span class="tag">Vision LLMs</span>
-    <span class="tag">LangChain</span>
-  </div>
-</div>
+## Awards
 
-<div class="mb-lg">
-  <div class="post-meta text-cyan">Full-Stack Development</div>
-  <div class="post-tags">
-    <span class="tag">Python</span>
-    <span class="tag">FastAPI</span>
-    <span class="tag">React</span>
-    <span class="tag">TypeScript</span>
-    <span class="tag">Node.js</span>
-  </div>
-</div>
+- IEEE IES SYPA Travel Award, 2026
+- 2nd Prize, Soul App Agent Hackathon Final (MeetSpot)
+- Best Topic Award, OpenManus Hackathon (VibeDoc)
+- Excellence Award, 12th Nvidia Sky Hackathon (WeFinance)
+- Star of Tomorrow Special Award, L'Oréal Hackathon
 
-<div class="mb-lg">
-  <div class="post-meta text-cyan">DevOps & Tools</div>
-  <div class="post-tags">
-    <span class="tag">Docker</span>
-    <span class="tag">Linux</span>
-    <span class="tag">Git</span>
-    <span class="tag">MySQL</span>
-    <span class="tag">Supabase</span>
-    <span class="tag">Zapier</span>
-  </div>
-</div>
+The full list of builds is in the [hackathon log](/projects/#hackathons).
 
-<div class="mb-lg">
-  <div class="post-meta text-cyan">Product Strategy</div>
-  <div class="post-tags">
-    <span class="tag">MVP Development</span>
-    <span class="tag">PMF Validation</span>
-    <span class="tag">User Persona Analysis</span>
-    <span class="tag">SEO Strategy</span>
-  </div>
-</div>
+## Tools
 
----
+Python (FastAPI, LangGraph), TypeScript, React, Postgres, Docker. I contribute to the Datawhale and WaytoAGI communities.
 
-## Connect
+## Contact
 
-Open to open source collaboration, contract work, and full-time opportunities. Reach me at [{{ site.email }}](mailto:{{ site.email }}).
-
-Find me on [GitHub](https://github.com/{{ site.github_username }}), [X (Twitter)](https://x.com/CalderBuild), [Telegram](https://t.me/CalderBuild), [CSDN](https://blog.csdn.net/Soulrobert520), or [Juejin](https://juejin.cn/user/2637056597039172).
-
-<style>
-  .about-avatar-section {
-    text-align: center;
-    margin-bottom: var(--space-2xl);
-  }
-
-  .about-avatar {
-    width: 150px;
-    height: 150px;
-    border: 3px solid var(--accent-cyan);
-    box-shadow: var(--glow-cyan);
-  }
-</style>
+Email is fastest: [{{ site.email }}](mailto:{{ site.email }}). I'm open to agent engineering roles, contract work, and open-source collaboration. Also on [GitHub](https://github.com/calderbuild), [X](https://x.com/CalderBuild) and [LinkedIn](https://www.linkedin.com/in/lin-luo-58851b421/).

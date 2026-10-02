@@ -1,4 +1,5 @@
 ---
+published: false
 layout: post
 title: "From Zero to Award-Winning AI Apps: My Agent Development Journey"
 subtitle: "How I built MeetSpot and NeighborHelp—two AI applications that won innovation awards and served 500+ real users"

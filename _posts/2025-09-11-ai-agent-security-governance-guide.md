@@ -1,4 +1,5 @@
 ---
+published: false
 layout: post
 title: "AI Agent Security & Governance: Lessons from 3 Real Breaches and $47K in Security Incidents"
 subtitle: "How I learned enterprise AI security the hard way—through prompt injection attacks, data leaks, and midnight crisis calls"

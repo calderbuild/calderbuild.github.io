@@ -1,16 +1,17 @@
-# Calder's Lab - Cyberpunk Tech Blog
+# calderbuild.github.io
 # Minimal Jekyll Configuration
 
-title: "Calder's Lab"
-description: "Calder ships multi-agent systems and AI-driven MVPs from idea to production. 1.6k+ GitHub stars, 4 hackathon wins."
+title: "Calder"
+description: "I build AI agents that make decisions for groups of people and show their reasoning. MeetSpot, QualityAgent (IEEE IRAI 2026), and 19 hackathon builds."
 url: "https://calderbuild.github.io"
 baseurl: ""
 author: "Calder"
+tagline: "AI agent engineer"
 email: johnrobertdestiny@gmail.com
 
 # SEO
 logo: /img/og-image.png
-keywords: "Agent Developer, AI Agent, Multi-Agent Systems, Open Source, Hackathon"
+keywords: "AI agents, multi-agent systems, agent harness, group decision making, MeetSpot, hackathon"
 
 # Build
 markdown: kramdown
@@ -41,6 +42,7 @@ social:
   links:
     - https://github.com/calderbuild
     - https://x.com/CalderBuild
+    - https://www.linkedin.com/in/lin-luo-58851b421/
 github_username: calderbuild
 twitter_username: CalderBuild
 
@@ -63,6 +65,8 @@ links:
     url: "https://github.com/calderbuild"
   - title: "X"
     url: "https://x.com/CalderBuild"
+  - title: "LinkedIn"
+    url: "https://www.linkedin.com/in/lin-luo-58851b421/"
   - title: "Telegram"
     url: "https://t.me/CalderBuild"
   - title: "CSDN"

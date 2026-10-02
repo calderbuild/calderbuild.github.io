@@ -1,4 +1,5 @@
 ---
+published: false
 layout: post
 title: "Beyond Chatbots: The Real AI Agent Revolution Nobody's Talking About"
 subtitle: "From answering questions to executing tasks—what I learned building autonomous agents"

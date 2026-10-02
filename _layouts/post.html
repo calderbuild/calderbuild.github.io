@@ -2,114 +2,28 @@
 layout: default
 ---
 
-<article class="post">
-  <header class="post-header container container-narrow">
-    <div class="post-meta">
-      <time datetime="{{ page.date | date_to_xmlschema }}">
-        {{ page.date | date: "%B %d, %Y" }}
-      </time>
-      {% if page.author %}
-      <span class="post-author"> &middot; {{ page.author }}</span>
-      {% endif %}
-    </div>
-
-    <h1 class="post-title">{{ page.title }}</h1>
-
-    {% if page.subtitle %}
-    <p class="post-subtitle">{{ page.subtitle }}</p>
-    {% endif %}
-
+<article>
+  <header class="page-header container container-narrow">
+    <p class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+    </p>
+    <h1 class="page-title">{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="page-description">{{ page.subtitle }}</p>{% endif %}
     {% if page.tags.size > 0 %}
-    <div class="post-tags">
-      {% for tag in page.tags %}
-      <a href="/tags/{{ tag | slugify }}/" class="tag">{{ tag }}</a>
-      {% endfor %}
-    </div>
+    <ul class="tag-list">
+      {% for tag in page.tags %}<li><a href="{{ '/tags/' | relative_url }}#{{ tag | slugify }}">#{{ tag }}</a></li>{% endfor %}
+    </ul>
     {% endif %}
   </header>
 
-  <div class="post-content container container-narrow">
+  <div class="prose container container-narrow">
     {{ content }}
   </div>
 
-  <footer class="post-footer container container-narrow">
+  <nav class="container container-narrow" aria-label="More posts">
     <div class="post-nav">
-      {% if page.previous.url %}
-      <a href="{{ page.previous.url | relative_url }}" class="post-nav-prev">
-        <span class="nav-label">&larr; Previous</span>
-        <span class="nav-title">{{ page.previous.title | truncate: 50 }}</span>
-      </a>
-      {% endif %}
-
-      {% if page.next.url %}
-      <a href="{{ page.next.url | relative_url }}" class="post-nav-next">
-        <span class="nav-label">Next &rarr;</span>
-        <span class="nav-title">{{ page.next.title | truncate: 50 }}</span>
-      </a>
-      {% endif %}
+      {% if page.previous.url %}<a href="{{ page.previous.url | relative_url }}">&larr; {{ page.previous.title | truncate: 50 }}</a>{% else %}<span></span>{% endif %}
+      {% if page.next.url %}<a href="{{ page.next.url | relative_url }}">{{ page.next.title | truncate: 50 }} &rarr;</a>{% endif %}
     </div>
-  </footer>
+  </nav>
 </article>
-
-<style>
-  .post-header {
-    padding: calc(80px + var(--space-3xl)) 0 var(--space-2xl);
-    border-bottom: 1px solid rgba(0, 255, 255, 0.1);
-  }
-
-  .post-subtitle {
-    font-size: 1.25rem;
-    color: var(--text-secondary);
-    margin-bottom: var(--space-lg);
-  }
-
-  .post-content {
-    padding: var(--space-2xl) var(--space-lg);
-  }
-
-  .post-footer {
-    padding: var(--space-2xl) var(--space-lg);
-    border-top: 1px solid rgba(0, 255, 255, 0.1);
-    margin-top: var(--space-2xl);
-  }
-
-  .post-nav {
-    display: flex;
-    justify-content: space-between;
-    gap: var(--space-lg);
-    flex-wrap: wrap;
-  }
-
-  .post-nav-prev,
-  .post-nav-next {
-    display: flex;
-    flex-direction: column;
-    gap: var(--space-xs);
-    padding: var(--space-md);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    max-width: 45%;
-    transition: all 0.2s ease;
-  }
-
-  .post-nav-prev:hover,
-  .post-nav-next:hover {
-    border-color: var(--accent-cyan);
-  }
-
-  .post-nav-next {
-    margin-left: auto;
-    text-align: right;
-  }
-
-  .nav-label {
-    font-family: var(--font-mono);
-    font-size: 0.75rem;
-    color: var(--accent-cyan);
-    text-transform: uppercase;
-  }
-
-  .nav-title {
-    color: var(--text-primary);
-    font-size: 0.9rem;
-  }
-</style>

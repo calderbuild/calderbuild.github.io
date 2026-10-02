@@ -1,0 +1,21 @@
+<ul class="work">
+  {% for p in include.projects %}
+  <li class="work-row">
+    <h3 class="work-name">{% if p.url %}<a href="{{ p.url }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</h3>
+    <div>
+      <p class="work-problem">{{ p.problem }}</p>
+      <p class="work-what">{{ p.what }}</p>
+      <p class="work-tech mono">{{ p.tech | join: " / " }}</p>
+    </div>
+    <div class="work-proof">
+      {% if p.stars %}<p class="mono"><b>{{ p.stars }}</b> stars</p>{% endif %}
+      {% if p.proof %}<p>{{ p.proof }}</p>{% endif %}
+      <p class="work-links">
+        {% if p.url %}<a href="{{ p.url }}">Code</a>{% endif %}
+        {% if p.demo %}<a href="{{ p.demo }}">Live demo</a>{% endif %}
+        {% unless p.url %}<span class="muted">Code not public</span>{% endunless %}
+      </p>
+    </div>
+  </li>
+  {% endfor %}
+</ul>
